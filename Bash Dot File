@@ -11,3 +11,6 @@ alias rmdir='rmdir -i'
 # update upgrade
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
+
+# shutdown
+alias now='shutdown now'
