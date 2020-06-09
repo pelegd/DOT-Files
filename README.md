@@ -1,13 +1,12 @@
-# bashrc
+collection of dot files
 
-# drop duplicates from history
-HISTCONTROL=ignoreboth
-
-# alias list
-alias ll='ls -lah'
-alias rm='rm -i'
-alias rmdir='rmdir -i'
-
-# update upgrade
-alias update='sudo apt update'
-alias upgrade='sudo apt upgrade'
+  Ubuntu dot file
+  
+  Arch dot file
+  
+  vim custom files
+    ~/.vimrc
+    ~/.vimrc.plug
+    ~/.vim/autoload/plug.vim
+    
+    
