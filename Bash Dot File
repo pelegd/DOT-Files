@@ -5,6 +5,7 @@ HISTCONTROL=ignoreboth
 
 # alias list
 alias ll='ls -lah'
+alias mv='mv -i'
 alias rm='rm -i'
 alias rmdir='rmdir -i'
 alias ..='cd ..'
