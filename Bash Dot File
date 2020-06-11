@@ -7,6 +7,7 @@ HISTCONTROL=ignoreboth
 alias ll='ls -lah'
 alias rm='rm -i'
 alias rmdir='rmdir -i'
+alias ..='cd ..'
 
 # update upgrade
 alias update='sudo apt update'
