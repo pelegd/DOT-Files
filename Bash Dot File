@@ -9,6 +9,10 @@ alias rm='rm -i'
 alias rmdir='rmdir -i'
 alias ..='cd ..'
 
+# color
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
 # update upgrade
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
