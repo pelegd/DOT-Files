@@ -12,6 +12,10 @@ alias ..='cd ..'
 alias now='shutdown now'
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
+alias cd..='cd ..'
+alias ..='cd ..'
+
+
 
 # color
 alias ls='ls --color=auto'
@@ -19,7 +23,7 @@ alias grep='grep --color=auto'
 
 
 
-# powerline settings
+# powerline settings - damages smuthness
 #function _update_ps1() {
 #    PS1=$(powerline-shell $?)
 #}
