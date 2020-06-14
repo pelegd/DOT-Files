@@ -14,8 +14,17 @@ alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
 alias cd..='cd ..'
 alias ..='cd ..'
-
-
+alias df='df -Tha --total'
+alias df="df -Tha --total"
+alias du="du -ach | sort -h"
+alias free="free -mt"
+alias ps="ps auxf"
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+alias mkdir="mkdir -pv"
+alias wget="wget -c"
+alias du="ncdu" #need to download ncdu
+alias df="pydf" # need to download pydf
+alias myip="curl http://ipecho.net/plain; echo"
 
 # color
 alias ls='ls --color=auto'
