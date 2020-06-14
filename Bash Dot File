@@ -4,6 +4,7 @@
 HISTCONTROL=ignoreboth
 
 # alias list
+# ===========================
 alias ll='ls -lah'
 alias mv='mv -i'
 alias rm='rm -i'
@@ -27,12 +28,13 @@ alias df="pydf" # need to download pydf
 alias myip="curl http://ipecho.net/plain; echo"
 
 # color
+# ============================
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 
-
 # powerline settings - damages smuthness
+# ======================================
 #function _update_ps1() {
 #    PS1=$(powerline-shell $?)
 #}
