@@ -53,6 +53,12 @@ Plug 'phanviet/vim-monokai-pro'
 Plug 'vim-airline/vim-airline'
 Plug 'flazz/vim-colorschemes'
 Plug '/home/mpaulson/personal/vim-be-good'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'itchyny/lightline.vim'
+Plug 'preservim/nerdtree'
+Plug 'junegunn/seoul256.vim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-sensible'
 
 call plug#end()
 
