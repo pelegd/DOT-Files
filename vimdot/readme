@@ -1,0 +1,9 @@
+general .vimrc file
+
+--------------------------------
+vim-plug setup needs these lines:
+call plug#begin('~/.vim/plugged')
+
+call plug#end()
+--------------------------------
+
