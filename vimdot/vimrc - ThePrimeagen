@@ -1,10 +1,10 @@
 syntax on
 
-" set guicursor=
-" set noshowmatch
-" set relativenumber
-" set nohlsearch
-" set hidden
+set guicursor=
+set noshowmatch
+set relativenumber
+set nohlsearch
+set hidden
 set noerrorbells
 set tabstop=4 softtabstop=4
 set shiftwidth=4
@@ -18,9 +18,9 @@ set nobackup
 set undodir=~/.vim/undodir "need to create this directory
 set undofile
 set incsearch
-" set termguicolors
-" set scrolloff=8
-" set noshowmode
+set termguicolors
+set scrolloff=8
+set noshowmode
 
 " Give more space for displaying messages.
 set cmdheight=2
@@ -37,7 +37,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tweekmonster/gofmt.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-utils/vim-man'
