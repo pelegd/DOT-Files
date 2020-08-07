@@ -1,6 +1,6 @@
-collection of dot files
+A collection of original dot files from selected Linux Distro
 
-  Ubuntu dot file
+  Manjaro pop_os dot file
   
   Arch dot file
   
