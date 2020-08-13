@@ -1,8 +1,7 @@
 # bashrc
 
-# ---------------------------
+
 # History
-# ----------------------------
 # drop duplicates from history
 HISTCONTROL=ignoreboth
 
