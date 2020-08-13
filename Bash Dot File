@@ -1,17 +1,17 @@
 # bashrc
 
-# Prompt
+### Prompt ###
 # DEFAULT=$PS1
 PS1="\u:\w\$ "
 
-# drop duplicates from history
+### drop duplicates from history ###
 # HISTCONTROL=ignoreboth
 HISTCONTROL=ignoredups:erasedups
 
-# If not running interactively, don't do anything
+### If not running interactively, don't do anything ###
 [[ $- != *i* ]] && return
 
-# alias list
+### alias list ###
 alias la='ls -lAh'
 alias mv='mv -i'
 alias rm='rm -i'
@@ -35,16 +35,18 @@ alias du="ncdu" #need to download ncdu
 alias df="pydf" # need to download pydf
 alias myip="curl http://ipecho.net/plain; echo"
 alias jctl="journalctl -p 3 -xb" # get error messages from journalctl
-
-# -------------------------
-# color
-# -------------------------
-alias ls='ls --color=auto'
+alias ls='ls --color=auto' # color
 alias grep='grep --color=auto'
+alias jctl="journalctl -p 3 -xb" # get error messages from journalctl
 
-# ----------------------------------------
+### sets vim as manpager ###
+export MANPAGER="/bin/sh -c \"col -b | vim --not-a-term -c 'set ft=man ts=8 nomod nolist noma' -\""
+
+### SET VI MODE IN BASH SHEL ###L
+set -o vi
+
+# ----------------------------------------- #
 # powerline settings - damages smuthness
-# ----------------------------------------
 #function _update_ps1() {
 #    PS1=$(powerline-shell $?)
 #}
