@@ -1,0 +1,8 @@
+# Keyboard Layout
+setxkbmap en &
+
+# Wallpaper
+nireogen --restore &
+
+# Compositor
+picom -f &
