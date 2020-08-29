@@ -427,5 +427,7 @@ beautiful.useless_gap = 3
 -- Autostart
 awful.spawn.with_shell("xrandr --output Virtual1 --mode 1440x900")
 awful.spawn.with_shell("picom -f")
+awful.spawn.with_shell("kmix")
+awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("/home/peleg/.config/polybar/launch.sh")
 awful.spawn.with_shell("nitrogen --set-zoom-fill  --restore")
