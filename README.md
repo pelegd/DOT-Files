@@ -2,7 +2,7 @@
 
 ##
   A collection of several usefull DOT files collected from several known YouTubers...
- - alavritty terminal
+ - alacritty terminal
  - Awesome WM
  - BashRC
  - Polybar
