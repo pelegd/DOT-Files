@@ -1,8 +1,7 @@
-This rc.lua file needs these things:
-picom
-nitrogern
-awesome plugin - collision from:
-  https://github.com/Elv13/collision
- Kmix - volume applete
- network-manager-applet
+### This rc.lua file needs these to be installed:
+- picom
+- nitrogern
+- awesome plugin - [collision](https://github.com/Elv13/collision)
+- Kmix - volume applete
+- network-manager-applet
   
