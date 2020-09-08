@@ -4,5 +4,5 @@
 /etc/lightdm/lightdm.conf
 display script - xrandr --output Virtual1 --mode 1440x900
 
-/etc/???/picom.conf
+/etc/xdg/picom.conf
 #vsync...
