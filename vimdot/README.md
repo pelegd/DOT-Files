@@ -1,4 +1,4 @@
 ### requiered:
-#### VIM-plug
-#### git
-#### base-devel
+- #### VIM-plug
+- #### git
+- #### base-devel
