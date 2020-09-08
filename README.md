@@ -4,11 +4,13 @@
 
 <h1>DOT-Files Page</h1>
 
-<p>My first paragraph.</p>
+  <p>
+  
+  A collection of several usefull DOT files
+  BashRC
+  alavritty
+  </p>
 
-A collection of several usefull DOT files
-BashRC
-alavritty
 
 </body>
 </html>
