@@ -6,6 +6,6 @@
  - Awesome WM
  - BashRC
  - Polybar
- - <a href="https://github.com/vim/vim">Vim</a>
+ - [Vim](https://github.com/vim/vim)
  - Xmonad WM
  - Windows Terminal
