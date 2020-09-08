@@ -1,4 +1,4 @@
-### components needed in this config file
+### components needed for this config file
 - fonts
 
 ### LINKS
