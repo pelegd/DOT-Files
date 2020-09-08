@@ -1,4 +1,4 @@
-for bash rc need to install
+# latest for bashrc needs these componantes:
 
-exa
-yay -S shell-color-scripts
+## exa
+## yay -S shell-color-scripts
