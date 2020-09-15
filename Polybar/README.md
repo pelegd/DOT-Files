@@ -11,6 +11,8 @@ For the config file to work, need to install:
 * Fira Code Font
 * community/ttf-font-awesome
 * gucharpam
+* Kmix - volume applete
+* network-manager-applet (get the correct pacman command)
 	
 ## Setup
 To run this project, install it locally using npm:
