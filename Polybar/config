@@ -75,6 +75,29 @@ label-indicator-margin = 1
 label-indicator-background = ${colors.secondary}
 label-indicator-underline = ${colors.secondary}
 
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = "  "
+format = <label>
+exec = python /home/makc/.config/polybar/spotify_status.py -f '{song}: {artist}'
+
+label = %output%
+label-active-font = 3
+
+[module/weather]
+type = custom/script
+exec = busctl --user -j get-property io.ntfd /weather openweathermap.strings RenderedTemplate | jq -r .data
+interval = 60
+label-font = 3
+
+[module/update]
+type = custom/script
+exec = yay -Qu | wc -l
+interval = 1000
+label = %output%
+format-prefix = "Updates "
+
 [module/filesystem]
 type = internal/fs
 interval = 25
