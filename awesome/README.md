@@ -1,4 +1,4 @@
-### This rc.lua file needs these to be installed:
+### This rc.lua file needs these componantes pre-installed:
 - [picom](https://github.com/yshui/picom) (linux compositor for xorg used with windows managers)
 - nitrogern (wallpapers setup app, can be replaced with feh)
 - awesome plugin - [collision](https://github.com/Elv13/collision)
