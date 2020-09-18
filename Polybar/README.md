@@ -14,6 +14,7 @@ For the config file to work, need to install:
 * Kmix - volume applete
 * network-manager-applet (get the correct pacman command)
 * [ntfd-bin](https://github.com/kamek-pf/ntfd) - for the weather forcast
+* OpenWeatherMap key is in DropBox
 
 ## Setup
 To run this project, install it locally using npm:
