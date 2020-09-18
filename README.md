@@ -10,4 +10,3 @@
  - [Vim](https://github.com/vim/vim)
  - [Xmonad WM](https://xmonad.org/)
  - [Windows Terminal](https://github.com/Microsoft/Terminal)
-c172fd7a09808198a0da2eccdfd093db
