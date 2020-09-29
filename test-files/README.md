@@ -1,0 +1,1 @@
+TEst your terminal capabilities
