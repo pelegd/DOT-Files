@@ -1,1 +1,1 @@
-TEst your terminal capabilities
+Test your terminal capabilities
