@@ -5,4 +5,4 @@
 display script - xrandr --output Virtual1 --mode 1440x900
 
 /etc/xdg/picom.conf
-#vsync...
+# vsync = true
