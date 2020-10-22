@@ -1,1 +1,1 @@
-pransperency is working on virtualbox - arco - awesom WM
+Transperency is working on virtualbox - arco - awesom WM
