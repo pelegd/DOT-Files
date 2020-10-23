@@ -2,7 +2,7 @@
 
 # DOT-Files Page
 ##
-  A collection of several usefull DOT files collected from several known YouTubers...
+  Some usefull DOT files collected from what is known as the internet.
  - [alacritty terminal](https://github.com/alacritty/alacritty)
  - [Awesome WM](https://awesomewm.org/)
  - BashRC
