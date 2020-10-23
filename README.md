@@ -15,25 +15,25 @@
  Dot and configuration files
 ## Table of Content:
 * [info](#info)
-* software
-* Desktop
-* General
+* [software](#software)
+* [Desktop](#Desktop)
+* [General](#General)
 
 ##  info
 dot files for the listed applications desktop environment and windows managers.
 
 ## software
-* alacritty
+* [alacritty terminal](https://github.com/alacritty/alacritty)
 * bashrc
 * Picom
-* Polybar
-* vim
-* windows terminal
+* [Polybar](https://polybar.github.io/) (openweathermap key is in Dropbox)
+* [Vim](https://github.com/vim/vim)
+* [Windows Terminal](https://github.com/Microsoft/Terminal)
 
 ## Desktop
 * arcolinux
-* awesome WM
-* xmonad WM
+* [Awesome WM](https://awesomewm.org/)
+* [Xmonad WM](https://xmonad.org/)
 
 ## General
 * test-files - test files with symbols and foreign languages.
