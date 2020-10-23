@@ -10,3 +10,31 @@
  - [Vim](https://github.com/vim/vim)
  - [Xmonad WM](https://xmonad.org/)
  - [Windows Terminal](https://github.com/Microsoft/Terminal)
+ 
+ 
+ Dot and configuration files
+## Table of Content:
+* info
+* software
+* Desktop
+* General
+
+##  info
+dot files for the listed applications desktop environment and windows managers.
+
+## software
+* alacritty
+* bashrc
+* Picom
+* Polybar
+* vim
+* windows terminal
+
+## Desktop
+* arcolinux
+* awesome WM
+* xmonad WM
+
+## General
+* test-files - test files with symbols and foreign languages.
+* wallpapers - hd distro wallpapers
