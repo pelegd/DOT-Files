@@ -18,7 +18,7 @@ dot files for the listed applications desktop environment and windows managers.
 * [Windows Terminal](https://github.com/Microsoft/Terminal)
 
 ## Desktop
-* arcolinux
+* [arcolinux](https://arcolinux.info/)
 * [Awesome WM](https://awesomewm.org/)
 * [Xmonad WM](https://xmonad.org/)
 
