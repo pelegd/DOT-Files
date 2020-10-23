@@ -14,7 +14,7 @@
  
  Dot and configuration files
 ## Table of Content:
-* info
+* [info](#info)
 * software
 * Desktop
 * General
