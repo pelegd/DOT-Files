@@ -8,3 +8,5 @@ things to do:
 check how page indicator is working
 english/hebrew keyboard switch
 windows manager gaps - compare to arcolinux
+not enough key bindings in this file - compare to arcolinux
+
