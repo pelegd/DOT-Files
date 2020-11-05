@@ -168,3 +168,5 @@ augroup highlight_yank
 augroup END
 
 autocmd BufWritePre * :call TrimWhitespace()
+
+map <F5> :NERDTreeToggle<CR>
