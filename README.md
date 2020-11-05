@@ -1,6 +1,6 @@
 
 Dot and configuration files
-# Table of Content:
+## Table of Content:
 * [info](#info)
 * [software](#software)
 * [Desktop](#Desktop)
