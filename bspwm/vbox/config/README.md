@@ -2,8 +2,7 @@
 
 * Picom - transition effects
 * nitrogen - wallpaper setup and restore
-* font awesome - 
-* arandr
-* sxhkd - Keyboard bindings
-
-
+* ttf-font-awesome
+* arandr - screen and resolution GUI setup
+* sxhkd - Keyboard bindings for bspwm
+* polybar
