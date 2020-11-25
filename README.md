@@ -26,5 +26,5 @@ dot files for the listed applications desktop environment and windows managers.
 ## General
 * test-files - test files with symbols and foreign languages.
 * wallpapers - hd distro wallpapers
-* hebrew settings : "cd /usr/share/X11/xkb/rules grep -ir hebrew *
-* Then : setxkbmap us,il -option grp:shifts_toggle"
+* hebrew settings : cd /usr/share/X11/xkb/rules grep -ir hebrew *
+* Then : setxkbmap us,il -option grp:shifts_toggle
