@@ -6,6 +6,7 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 $HOME/.screenlayout/display.sh
 $HOME/.config/polybar/launch.sh
+setxkbmap us,il -option grp:shifts_toggle &
 nitrogen --restore &
 picom -f &
 
