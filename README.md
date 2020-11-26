@@ -17,10 +17,10 @@ dot files for the listed applications desktop environment and windows managers.
 * [Vim](https://github.com/vim/vim)
 * [Windows Terminal](https://github.com/Microsoft/Terminal)
 
-## Desktop
+## Linux windows Managers
 * [arcolinux](https://arcolinux.info/)
-* [Awesome WM](https://awesomewm.org/)
-* [Xmonad WM](https://xmonad.org/)
+* [Awesome](https://awesomewm.org/)
+* [Xmonad](https://xmonad.org/)
 * [BSPWM](https://github.com/baskerville/bspwm)
 
 ## General
