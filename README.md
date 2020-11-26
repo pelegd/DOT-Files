@@ -3,7 +3,7 @@ Dot and configuration files
 ## Table of Content:
 * [info](#info)
 * [software](#software)
-* [Linux Distro and WM](#Desktop)
+* [Linux Distro and WM](#Linux Distro and WM)
 * [General](#General)
 
 ##  info
