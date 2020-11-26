@@ -17,7 +17,7 @@ dot files for the listed applications desktop environment and windows managers.
 * [Vim](https://github.com/vim/vim)
 * [Windows Terminal](https://github.com/Microsoft/Terminal)
 
-## Linux windows Managers
+## Linux Distro and WM
 * [arcolinux](https://arcolinux.info/)
 * [Awesome](https://awesomewm.org/)
 * [Xmonad](https://xmonad.org/)
