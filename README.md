@@ -3,7 +3,7 @@ Dot and configuration files
 ## Table of Content:
 * [info](#info)
 * [software](#software)
-* [Linux Distro and WM](#Linux Distro and WM)
+* [Linux](#Linux)
 * [General](#General)
 
 ##  info
@@ -17,7 +17,7 @@ dot files for the listed applications desktop environment and windows managers.
 * [Vim](https://github.com/vim/vim)
 * [Windows Terminal](https://github.com/Microsoft/Terminal)
 
-## Linux Distro and WM
+## Linux
 * [arcolinux](https://arcolinux.info/)
 * [Awesome](https://awesomewm.org/)
 * [Xmonad](https://xmonad.org/)
