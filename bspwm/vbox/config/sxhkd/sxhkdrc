@@ -113,7 +113,7 @@ super + return
 	alacritty
 
 # web browser
-super + w
+super + b
 	firefox
 
 # file manager
