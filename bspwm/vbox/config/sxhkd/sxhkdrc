@@ -134,7 +134,13 @@ super + d
 	
 # ALTERNATIVE APP KEYS (Super + function key)
 
-# terminal emulator
-super + f1
+super + F1
 	alacritty
+super + F2
+	firefox
+super + F3
+	thunar
+super + F4
+	dmenu_run
+
 
