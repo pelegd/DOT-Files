@@ -1,5 +1,6 @@
 ## Table of Content:
 * [Description](#Description)
+* [Configuration](#Configuration)
 
 
 
