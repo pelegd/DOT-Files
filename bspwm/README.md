@@ -2,10 +2,10 @@
 * [Description](#Description)
 * [Configuration](#Configuration)
 * [Monitors, desktops and windows](#Monitors, desktops and windows)
-* [Configuration](#Configuration)
-* [Configuration](#Configuration)
-* [Configuration](#Configuration)
-
+* [Insertion modes](#Insertion modes)
+* [Supported protocols and standards](#Supported protocols and standards)
+* [Community](#Community)
+* [Todo](#Todo)
 
 
 ## Description 
@@ -202,3 +202,6 @@ Want to get in touch with other *bspwm* users or you need help? Join us on our:
 
 - Subreddit at [r/bspwm](https://www.reddit.com/r/bspwm/).
 - IRC channel at `#bspwm` on `chat.freenode.net` (maintained by [@dannycolin](https://github.com/dannycolin) / sdk on IRC).
+
+## Todo
+
