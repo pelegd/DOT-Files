@@ -1,7 +1,10 @@
 ## Table of Content:
 * [Description](#Description)
 * [Configuration](#Configuration)
-* [Monitors desktops and windows](#Monitors, desktops and windows)
+* [Monitors, desktops and windows](#Monitors, desktops and windows)
+* [Configuration](#Configuration)
+* [Configuration](#Configuration)
+* [Configuration](#Configuration)
 
 
 
