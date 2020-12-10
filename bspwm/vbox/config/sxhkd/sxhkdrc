@@ -118,7 +118,7 @@ super + b
 
 # file manager
 super + f
-	thumar
+	thunar
 
 # Video Player
 super + v
@@ -132,3 +132,9 @@ super + p
 super + d
 	dmenu_run
 	
+# ALTERNATIVE APP KEYS (Super + function key)
+
+# terminal emulator
+super + f1
+	alacritty
+
