@@ -1,10 +1,11 @@
 ## Table of Content:
-* [Description](#Description (from [BSPWM](https://github.com/baskerville/bspwm) gitpage))
+* [Description](#Description)
 
 
 
 
-## Description (from [BSPWM](https://github.com/baskerville/bspwm) gitpage)
+## Description
+##(from [BSPWM](https://github.com/baskerville/bspwm) gitpage)
 
 *bspwm* is a tiling window manager that represents windows as the leaves of a full binary tree.
 
