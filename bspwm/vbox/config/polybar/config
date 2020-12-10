@@ -80,7 +80,7 @@ tray-padding = 2
 ;scroll-down = i3wm-wsprev
 
 cursor-click = pointer
-eursor-scroll = ns-resize
+cursor-scroll = ns-resize
 
 [module/pacman-updates]
 type = custom/script
