@@ -16,6 +16,7 @@
 ## links
 * [Github](https://github.com/baskerville/sxhkd)
 * [archwiki](https://wiki.archlinux.org/index.php/Sxhkd)
+* [Distrotube guide](https://www.distrotube.com/blog/sxhkd-guide/)
 
 ## Feature-to-test
 * pulldown terminal
