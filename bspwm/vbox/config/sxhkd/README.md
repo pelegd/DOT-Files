@@ -2,6 +2,7 @@
 ## Table of Content:
 * [info](#info)
 * [links](#links)
+* [Example Bindings](#Example Bindings)
 * [Feature-to-test](#Feature-to-test)
 
 ## info
@@ -17,6 +18,9 @@
 * [Github](https://github.com/baskerville/sxhkd)
 * [archwiki](https://wiki.archlinux.org/index.php/Sxhkd)
 * [Distrotube guide](https://www.distrotube.com/blog/sxhkd-guide/)
+
+## Example Bindings
+
 
 ## Feature-to-test
 * pulldown terminal
