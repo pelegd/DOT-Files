@@ -2,7 +2,7 @@
 ## Table of Content:
 * [info](#info)
 * [links](#links)
-* [Example-Bindings](#Example Bindings)
+* [Example-Bindings](#Example-Bindings)
 * [Feature-to-test](#Feature-to-test)
 
 ## info
@@ -19,7 +19,7 @@
 * [archwiki](https://wiki.archlinux.org/index.php/Sxhkd)
 * [Distrotube guide](https://www.distrotube.com/blog/sxhkd-guide/)
 
-## Example Bindings
+## Example-Bindings
 
 
 ## Feature-to-test
