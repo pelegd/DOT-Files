@@ -18,6 +18,6 @@
 * [archwiki](https://wiki.archlinux.org/index.php/Sxhkd)
 
 ## Feature-to-test
-* puldown termonal
+* pulldown terminal
 *
 *
