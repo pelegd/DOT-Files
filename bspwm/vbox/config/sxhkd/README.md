@@ -2,7 +2,7 @@
 ## Table of Content:
 * [info](#info)
 * [links](#links)
-* [Example Bindings](#Example Bindings)
+* [Example-Bindings](#Example Bindings)
 * [Feature-to-test](#Feature-to-test)
 
 ## info
