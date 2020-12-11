@@ -2,7 +2,7 @@
 ## Table of Content:
 * [info](#info)
 * [links](#links)
-* [investigate](#investigate)
+* [Feature-to-test](#Feature-to-test)
 
 ## info
 * from Github:
@@ -17,7 +17,7 @@
 * [Github](https://github.com/baskerville/sxhkd)
 * [archwiki](https://wiki.archlinux.org/index.php/Sxhkd)
 
-## investigate
+## Feature-to-test
 * puldown termonal
 *
 *
