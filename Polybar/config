@@ -1,3 +1,6 @@
+# polybar config file
+# 
+
 [colors]
 background = #DD0f0f0f
 background-alt = #DD0f0f0f
