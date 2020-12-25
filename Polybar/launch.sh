@@ -1,3 +1,5 @@
+# Polybar Launch script
+
 #!/bin/bash
 
 # Terminate already running bar instances
