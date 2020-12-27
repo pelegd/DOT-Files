@@ -13,8 +13,10 @@ bspc rule -r "*"
 pgrep -x sxhkd > /dev/null || sxhkd &
 $HOME/.screenlayout/display.sh
 $HOME/.config/polybar/launch.sh
-setxkbmap us,il -option grp:shifts_toggle &
+# setxkbmap us,il -option grp:shifts_toggle &
+killall "nitrogen"
 nitrogen --restore &
+killall "picom"
 picom -f &
 
 
