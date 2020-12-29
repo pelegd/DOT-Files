@@ -1,6 +1,6 @@
 ## Table of contents
 * [General info](#general-info)
-* [Technologies](#technologies)
+* [Dependencies](#Dependencies)
 * [Setup](#setup)
 
 ## General info
