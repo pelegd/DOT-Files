@@ -109,7 +109,7 @@ super + {Left,Down,Up,Right}
 # APPLICATION KEYBINDINGS (Super + Key)
 
 # terminal emulator
-super + return
+super + Return
 	alacritty
 
 # web browser
