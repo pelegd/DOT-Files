@@ -28,6 +28,11 @@ super + y
 super + g
   	bspc node -s biggest
 
+# Lock the screen
+super + shift + e
+	betterlockscreen -l
+
+
 
 # STATE/FLAGS
 
