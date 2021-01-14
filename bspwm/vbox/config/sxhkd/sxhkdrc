@@ -32,6 +32,15 @@ super + g
 super + shift + e
 	betterlockscreen -l
 
+# Screenshots
+Print
+	flameshot full -p ~/pictures/screenshots
+
+Print + shift
+	flameshot gui
+
+Print + super
+	flameshot screen -p ~/pictures/screenshots
 
 
 # STATE/FLAGS
@@ -117,10 +126,12 @@ super + {Left,Down,Up,Right}
 # terminal emulator
 super + Return
 	alacritty
+#$TERMINAL
 
 # web browser
 super + b
 	firefox
+#$WEBBROWSER
 
 # file manager
 super + f
