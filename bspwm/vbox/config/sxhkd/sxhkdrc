@@ -28,6 +28,9 @@ super + y
 super + g
   	bspc node -s biggest
 
+super + shift + c
+  toggleprogram "picom" "--experimental-backends"
+
 # Lock the screen
 super + shift + e
 	betterlockscreen -l
