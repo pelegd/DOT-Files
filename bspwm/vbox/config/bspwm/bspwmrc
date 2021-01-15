@@ -17,7 +17,7 @@ $HOME/.screenlayout/display.sh
 $HOME/.config/polybar/launch.sh
 # setxkbmap us,il -option grp:shifts_toggle &
 killall "nitrogen"
-nitrogen --restore &
+nitrogen --set-zoom-fill --restore &
 killall "picom"
 picom -f &
 
