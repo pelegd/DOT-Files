@@ -23,3 +23,19 @@ set scrolloff=8
 set noshowmode
 set colorcolumn=80
 set sighncolumn=yes
+
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'gruvbox-community/gruvbox'
+
+call plug#end()
+
+colorscheme gruvbox
+
+
+
+
+
+
