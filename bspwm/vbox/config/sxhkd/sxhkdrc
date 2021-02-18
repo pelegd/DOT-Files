@@ -64,10 +64,21 @@ super + s
 super + shift + l
 	betterlockscreen -l blur
 # i3lock
-	
-## take a screenshot
+
+# Screenshots
 Print
-	scrot 'scrot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~ ; viewnior ~/$f'
+	flameshot full -p ~/pictures/screenshots
+
+Print + shift
+	flameshot gui
+
+Print + super
+	flameshot screen -p ~/pictures/screenshots
+
+
+## take a screenshot
+# Print
+# 	scrot 'scrot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~ ; viewnior ~/$f'
 
 
 ######################
