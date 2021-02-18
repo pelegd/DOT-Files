@@ -61,7 +61,7 @@ super + s
 	pkill -USR1 -x sxhkd
 
 ## lockscreen :)
-super + l
+super + shift + l
 	betterlockscreen -l blur
 # i3lock
 	
