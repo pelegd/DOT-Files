@@ -17,7 +17,7 @@
 
 ## launch terminal
 super + Return
-	alcritty
+	alacritty
 
 ## launch alternative terminal
 #super + shift + Return
