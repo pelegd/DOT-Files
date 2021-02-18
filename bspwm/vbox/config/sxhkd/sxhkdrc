@@ -23,6 +23,26 @@ super + Return
 #super + shift + Return
 #	termite
 
+## launch thunar
+super + shift + f
+	thunar
+	
+## launch firefox
+super + shift + w
+	firefox
+	
+## launch Text Editor
+super + shift + g
+	leafpad
+
+# ALTERNATIVE APP KEYS (Super + function key)
+super + F1
+	alacritty
+super + F2
+	firefox
+super + F3
+	dmenu_run
+
 ## volume control
 XF86Audio{RaiseVolume,LowerVolume,Mute}
 	amixer {-c 0 set PCM 4dB+,-c 0 set PCM 4dB-,set Master toggle}
@@ -39,18 +59,6 @@ super + d
 ## make sxhkd reload its configuration files
 super + s
 	pkill -USR1 -x sxhkd
-	
-## launch thunar
-super + shift + f
-	thunar
-	
-## launch firefox
-super + shift + w
-	firefox
-	
-## launch Text Editor
-super + shift + g
-	leafpad
 
 ## lockscreen :)
 super + l
