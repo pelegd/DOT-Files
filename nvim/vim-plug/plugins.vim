@@ -15,5 +15,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'junegunn/rainbow_parentheses.vim'
 
 call plug#end()
