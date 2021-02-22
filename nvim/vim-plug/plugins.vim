@@ -19,5 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'preservim/nerdcommenter'
+    Plug 'gruvbox-community/gruvbox'
+    Plug 'sainnhe/gruvbox-material'
     
 call plug#end()
