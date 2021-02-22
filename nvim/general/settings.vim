@@ -25,7 +25,7 @@ set number                              " Line numbers
 set relativenumber
 set cursorline                          " Enable highlighting of the current line
 set guicursor=                          " curser always a block
-set tgc                                 " termgui  something
+set tgc                                 " termguicolors
 set background=dark                     " tell vim what the background color looks like
 set showtabline=2                       " Always show tabs
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
