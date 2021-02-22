@@ -45,3 +45,8 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 
 " You can't stop me
 cmap w!! w !sudo tee %
+
+" for rainbow plugin
+let g:rainbow#max_level = 16
+let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
+autocmd FileType * RainbowParentheses
