@@ -1,0 +1,10 @@
+You may want to install these fonts if you want the little arrows and stuff
+
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
