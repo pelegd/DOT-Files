@@ -1,0 +1,26 @@
+This will not work if the file doesn't have and extension i.e. .txt .py. js .css
+If you want to enable it you can do so like this:
+
+:ColorizerAttachToBuffer
+
+=======================
+
+Cool Note:
+You can increment and decrement in vim with c-a and c-x
+just hover over a number in normal mode
+r also work great
+
+======================
+
+Lua Note
+Install luarocks if you want to use with coc-lua
+
+======================
+
+Enter the following to see what happens
+
+#8F6fEa
+rgb(113, 146, 230)
+rgb(7%, 77%, 46%)
+
+======================
