@@ -4,4 +4,7 @@ git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger
 Install Ueberzug (Linux only)
 yay -S python-ueberzug-git
 
-
+Add this configuration to rc.conf:
+set preview_images_method ueberzug
+default_linemode devicons
+set show_hidden true
