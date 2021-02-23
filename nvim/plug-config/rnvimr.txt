@@ -1,10 +1,12 @@
+These settings are relates to file explorer RANGER:
+
 Install Ranger devicons
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 
 Install Ueberzug (Linux only)
 yay -S python-ueberzug-git
 
-Add this configuration to rc.conf:
+Add this configuration to .config/ranger/rc.conf:
 set preview_images_method ueberzug
 default_linemode devicons
 set show_hidden true
