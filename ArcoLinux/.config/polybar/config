@@ -20,7 +20,6 @@ margin-bottom = 0
 ;https://github.com/jaagr/polybar/wiki/Configuration#application-settings
 throttle-output = 5
 throttle-output-for = 10
-throttle-input-for = 30
 screenchange-reload = true
 compositing-background = over
 compositing-foreground = over
@@ -698,8 +697,8 @@ font-3 = "Noto Sans Mono:size=10;0"
 font-4 = "FontAwesome5Brands:size=13;0"
 
 modules-left = ewmh
-modules-center = date
-modules-right = cpu2 memory2 pavolume
+modules-center = kernel
+modules-right = pavolume memory2 cpu2 date
 
 tray-detached = false
 tray-offset-x = 0
@@ -841,14 +840,79 @@ tray-background = ${colors.background}
 scroll-up = spectrwm-desknext
 scroll-down = spectrwm-deskprev
 
+################################################################################
+################################################################################
+############                  MAINBAR-CWM                           ############
+################################################################################
+################################################################################
+
+[bar/mainbar-cwm]
+monitor = ${env:MONITOR}
+;monitor-fallback = HDMI1
+width = 100%
+height = 30
+;offset-x = 1%
+;offset-y = 1%
+radius = 0.0
+fixed-center = true
+bottom = false
+separator = |
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #f00
+
+override-redirect = true
+
+; Enable support for inter-process messaging
+; See the Messaging wiki page for more details.
+enable-ipc = true
+
+border-size = 0
+;border-left-size = 0
+;border-right-size = 25
+;border-top-size = 0
+;border-bottom-size = 25
+border-color = #00000000
+
+padding-left = 0
+padding-right = 1
+
+module-margin-left = 3
+module-margin-right = 3
+
+;https://github.com/jaagr/polybar/wiki/Fonts
+font-0 = "Noto Sans:size=10;0"
+font-1 = "FontAwesome:size=13;0"
+font-2 = "Noto Sans:size=10;0"
+font-3 = "Noto Sans Mono:size=10;0"
+
+modules-left =  ewmh xwindow
+modules-center = kernel
+modules-right = pavolume memory2 cpu2 date
+
+tray-detached = false
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 2
+tray-maxsize = 20
+tray-scale = 1.0
+tray-position = right
+tray-background = ${colors.background}
+
+scroll-up = cwm-desknext
+scroll-down = cwm-deskprev
+
 
 ################################################################################
 ################################################################################
-############                  MAINBAR-SPECTRWM-EXTRA                ############
+############                  MAINBAR-CWM-EXTRA                     ############
 ################################################################################
 ################################################################################
 
-[bar/mainbar-spectrwm-extra]
+[bar/mainbar-cwm-extra]
 monitor = ${env:MONITOR}
 ;monitor-fallback = HDMI1
 width = 100%
@@ -892,9 +956,9 @@ font-1 = "FontAwesome:size=13;0"
 font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
-modules-left = xwindow
-modules-center = filesystem
-modules-right =
+modules-left = load-average
+modules-center = networkspeeddown networkspeedup
+modules-right = filesystem
 
 ;tray-detached = false
 ;tray-offset-x = 0
@@ -905,9 +969,140 @@ modules-right =
 ;tray-position = right
 ;tray-background = ${colors.background}
 
-scroll-up = spectrwm-desknext
-scroll-down = spectrwm-deskprev
+scroll-up = cwm-desknext
+scroll-down = cwm-deskprev
 
+################################################################################
+################################################################################
+############                  MAINBAR-FVWM3                         ############
+################################################################################
+################################################################################
+
+[bar/mainbar-fvwm3]
+monitor = ${env:MONITOR}
+;monitor-fallback = HDMI1
+width = 100%
+height = 30
+;offset-x = 1%
+;offset-y = 1%
+radius = 0.0
+fixed-center = true
+bottom = false
+separator = |
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #f00
+
+override-redirect = true
+
+; Enable support for inter-process messaging
+; See the Messaging wiki page for more details.
+enable-ipc = true
+
+border-size = 0
+;border-left-size = 0
+;border-right-size = 25
+;border-top-size = 0
+;border-bottom-size = 25
+border-color = #00000000
+
+padding-left = 0
+padding-right = 1
+
+module-margin-left = 3
+module-margin-right = 3
+
+;https://github.com/jaagr/polybar/wiki/Fonts
+font-0 = "Noto Sans:size=10;0"
+font-1 = "FontAwesome:size=13;0"
+font-2 = "Noto Sans:size=10;0"
+font-3 = "Noto Sans Mono:size=10;0"
+
+modules-left =  ewmh xwindow
+modules-center = kernel
+modules-right = pavolume memory2 cpu2 date
+
+tray-detached = false
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 2
+tray-maxsize = 20
+tray-scale = 1.0
+tray-position = right
+tray-background = ${colors.background}
+
+scroll-up = fvwm3-desknext
+scroll-down = fvwm3-deskprev
+
+
+################################################################################
+################################################################################
+############                  MAINBAR-FVWM3-EXTRA                   ############
+################################################################################
+################################################################################
+
+[bar/mainbar-fvwm3-extra]
+monitor = ${env:MONITOR}
+;monitor-fallback = HDMI1
+width = 100%
+height = 30
+;offset-x = 1%
+;offset-y = 1%
+radius = 0.0
+fixed-center = true
+bottom = true
+separator = |
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #f00
+
+wm-restack = bspwm
+override-redirect = true
+
+; Enable support for inter-process messaging
+; See the Messaging wiki page for more details.
+enable-ipc = true
+
+border-size = 0
+;border-left-size = 0
+;border-right-size = 25
+;border-top-size = 0
+;border-bottom-size = 25
+border-color = #00000000
+
+padding-left = 0
+padding-right = 1
+
+module-margin-left = 3
+module-margin-right = 3
+
+;https://github.com/jaagr/polybar/wiki/Fonts
+font-0 = "Noto Sans:size=10;0"
+font-1 = "FontAwesome:size=13;0"
+font-2 = "Noto Sans:size=10;0"
+font-3 = "Noto Sans Mono:size=10;0"
+
+modules-left = load-average
+modules-center = networkspeeddown networkspeedup
+modules-right = filesystem
+
+;tray-detached = false
+;tray-offset-x = 0
+;tray-offset-y = 0
+;tray-padding = 2
+;tray-maxsize = 20
+;tray-scale = 1.0
+;tray-position = right
+;tray-background = ${colors.background}
+
+scroll-up = fvwm3-desknext
+scroll-down = fvwm3-deskprev
 
 
 ################################################################################
@@ -1203,8 +1398,8 @@ format-discharging-background = ${colors.background}
 format-full-prefix = " "
 format-full-prefix-foreground = #a3c725
 format-full-underline = #a3c725
-format-foreground = ${colors.foreground}
-format-background = ${colors.background}
+format-full-foreground = ${colors.foreground}
+format-full-background = ${colors.background}
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
@@ -1720,6 +1915,48 @@ format-underline = #0f0
 format-prefix = "  "
 format-prefix-foreground = #0f0
 label = %output:0:150%
+
+################################################################################
+
+[module/spotify2]
+;install zscroll
+;https://github.com/PrayagS/polybar-spotify
+type = custom/script
+tail = true
+format-prefix = "  "
+format = <label>
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+exec = ~/.config/polybar/scripts/scroll_spotify_status.sh
+
+
+[module/spotify-prev]
+type = custom/script
+exec = echo ""
+format = <label>
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+click-left = playerctl previous spotify
+click-right = spotify
+
+[module/spotify-play-pause]
+type = custom/ipc
+hook-0 = echo ""
+hook-1 = echo ""
+initial = 1
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+click-left = playerctl play-pause spotify
+click-right = spotify
+
+[module/spotify-next]
+type = custom/script
+exec = echo ""
+format = <label>
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+click-left = playerctl next spotify
+click-right = spotify
 
 ################################################################################
 
