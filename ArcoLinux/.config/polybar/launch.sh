@@ -5,7 +5,7 @@
 # Install the following applications for polybar and icons in polybar if you are on ArcoLinuxD
 # awesome-terminal-fonts
 # Tip : There are other interesting fonts that provide icons like nerd-fonts-complete
-
+# --log=error
 # Terminate already running bar instances
 killall -q polybar
 
@@ -120,4 +120,43 @@ case $desktop in
     fi
     ;;
 
+    cwm|/usr/share/xsessions/cwm)
+    if type "xrandr" > /dev/null; then
+      for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+        MONITOR=$m polybar --reload mainbar-cwm -c ~/.config/polybar/config &
+      done
+    else
+    polybar --reload mainbar-cwm -c ~/.config/polybar/config &
+    fi
+
+     # second polybar at bottom
+     # if type "xrandr" > /dev/null; then
+     #  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+     #    MONITOR=$m polybar --reload mainbar-cwm-extra -c ~/.config/polybar/config &
+     #  done
+     # else
+     # polybar --reload mainbar-cwm-extra -c ~/.config/polybar/config &
+     # fi
+
+    ;;
+
+    fvwm3|/usr/share/xsessions/fvwm3)
+    if type "xrandr" > /dev/null; then
+      for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+        MONITOR=$m polybar --reload mainbar-fvwm3 -c ~/.config/polybar/config &
+      done
+    else
+    polybar --reload mainbar-fvwm3 -c ~/.config/polybar/config &
+    fi
+
+     # second polybar at bottom
+     # if type "xrandr" > /dev/null; then
+     #  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+     #    MONITOR=$m polybar --reload mainbar-fvwm3-extra -c ~/.config/polybar/config &
+     #  done
+     # else
+     # polybar --reload mainbar-fvwm3-extra -c ~/.config/polybar/config &
+     # fi
+
+    ;;
 esac
