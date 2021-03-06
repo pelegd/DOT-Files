@@ -6,6 +6,8 @@ htop/bashtop
 ranger/thunar
 neofetch
 
+
+
 # System
 base-devel
 git
@@ -16,6 +18,7 @@ ripgrep - grep alternative
 dunst - notification deamon
 betterlockscreen - lock you screen
 timeshift/bacuka - backup tools
+
 
 
 # Media
@@ -35,10 +38,12 @@ okular - pdf reader
 office
 
 
+
 # Fonts
 ttf-fira-code - for alacritty
 awesom font
 emoji fonts ?
+
 
 
 # Internet
@@ -47,11 +52,15 @@ thunderbird
 qbittorrent/transmission
 
 
+
 # Command Line Tools
 buku - bookmarks
 mail reader
 web browser
 RSS reader
+FZF/ranger
+vim/neovim
+
 
 
 # Fun
@@ -59,4 +68,3 @@ tty-clock
 cmatrix
 genact
 figlet
-
