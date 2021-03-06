@@ -1,0 +1,62 @@
+Fresh Install applications list
+
+# Basic
+alacritty
+htop/bashtop
+ranger/thunar
+neofetch
+
+# System
+base-devel
+git
+yay/paru - AUR installer
+openssh
+ufw - Firewall
+ripgrep - grep alternative
+dunst - notification deamon
+betterlockscreen - lock you screen
+timeshift/bacuka - backup tools
+
+
+# Media
+leafpad/gedit
+nitrogen/pah - wallpaper tool
+gimp
+inkscape - drawing tool
+pinta - ms paint like
+openshot - video editing
+handbreak - video convertor
+kazam - screen recorder
+flameshot - screenshot tool
+deadbeef - music player
+audacity - audio editor
+VLC media player
+okular - pdf reader
+office
+
+
+# Fonts
+ttf-fira-code - for alacritty
+awesom font
+emoji fonts ?
+
+
+# Internet
+firefox/chromium
+thunderbird
+qbittorrent/transmission
+
+
+# Command Line Tools
+buku - bookmarks
+mail reader
+web browser
+RSS reader
+
+
+# Fun
+tty-clock
+cmatrix
+genact
+figlet
+
