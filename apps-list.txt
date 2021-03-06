@@ -35,7 +35,7 @@ deadbeef - music player
 audacity - audio editor
 VLC media player
 okular - pdf reader
-office
+libreoffice
 
 
 
