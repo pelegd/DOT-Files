@@ -1,25 +1,24 @@
 ## Fresh Install applications list ##
 
 
-
 ### table of content: ###
 * [Basic](#Basic)
-* System
-* Media
-* Fonts
-* Internet
+* [System](#System)
+* [Media](#Media)
+* [Fonts](#Fonts)
+* [Internet](#Internet)
 * command line tools
-* fun
+* [fun](#Fun)
 
 
-#### Basic ####
+### Basic ###
 * alacritty
 * htop/bashtop
 * ranger/thunar
 * neofetch
 
 
-#### System ####
+### System ###
 * base-devel
 * git
 * yay/paru - AUR installer
