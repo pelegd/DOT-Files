@@ -1,13 +1,13 @@
 ## Fresh Install applications list ##
 
-### table of content: ###
-Basic
-System
-Media
-Fonts
-Internet
-command line tools
-fun
+* ### table of content: ###
+* Basic
+* System
+* Media
+* Fonts
+* Internet
+* command line tools
+* fun
 
 
 #### Basic ####
