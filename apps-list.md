@@ -55,6 +55,7 @@
 
 ### Internet ###
 * firefox/chromium
+* qutebrowser
 * thunderbird
 * qbittorrent/transmission
 
