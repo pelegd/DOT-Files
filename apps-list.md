@@ -28,6 +28,7 @@
 * dunst - notification deamon
 * betterlockscreen - lock you screen
 * timeshift/bacuka - backup tools
+* xrandr/arandr - resolution settings for xorg
 
 
 ### Media ###
@@ -62,12 +63,16 @@
 
 ### Command_Tools ###
 * buku - bookmarks
-* mail reader
+* mutt/neomutt - mail client
 * web browser
 * RSS reader
 * FZF/ranger
 * vim/neovim
 * castero – command-line podcast player
+* youtube-dl
+* calcurse – free calendar and scheduling application
+* sfeed -RSS feed reader
+* glances - system monitoring
 
 
 ### Fun ###
