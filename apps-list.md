@@ -1,7 +1,9 @@
 ## Fresh Install applications list ##
 
+
+
 ### table of content: ###
-* Basic
+* [Basic](#Basic)
 * System
 * Media
 * Fonts
