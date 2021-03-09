@@ -5,3 +5,4 @@
 - tar
 - p7zip
 - reflector
+- shopt
