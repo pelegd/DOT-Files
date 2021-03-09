@@ -1,6 +1,6 @@
 ## bashrc needs these componantes:
 
-- exa
+- exa (replaces ls command)
 - yay -S shell-color-scripts
 - tar
 - p7zip
