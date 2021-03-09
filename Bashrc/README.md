@@ -1,4 +1,4 @@
-## latest bashrc file needs these componantes:
+## bashrc needs these componantes:
 
 - exa
 - yay -S shell-color-scripts
