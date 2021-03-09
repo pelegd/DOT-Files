@@ -10,11 +10,12 @@
 * fun
 
 
-#### Basic ####
-alacritty
-htop/bashtop
-ranger/thunar
-neofetch
+#### Basic #### |
+-----------------
+alacritty |
+htop/bashtop |
+ranger/thunar |
+neofetch |
 
 
 
