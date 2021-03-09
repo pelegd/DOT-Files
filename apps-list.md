@@ -10,8 +10,8 @@
 * fun
 
 
-#### Basic #### |
----------------- |
+#### Basic #### | 
+--------------- | ---------------
 alacritty |
 htop/bashtop |
 ranger/thunar |
