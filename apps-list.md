@@ -67,6 +67,7 @@
 * RSS reader
 * FZF/ranger
 * vim/neovim
+* castero – command-line podcast player
 
 
 ### Fun ###
