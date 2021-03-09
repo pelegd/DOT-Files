@@ -10,13 +10,11 @@
 * fun
 
 
-#### Basic #### | 
---------------- | ---------------
-alacritty |
-htop/bashtop |
-ranger/thunar |
-neofetch |
-
+#### Basic ####
+alacritty
+htop/bashtop
+ranger/thunar
+neofetch
 
 
 #### System ####
@@ -29,7 +27,6 @@ ripgrep - grep alternative
 dunst - notification deamon
 betterlockscreen - lock you screen
 timeshift/bacuka - backup tools
-
 
 
 ### Media ###
@@ -49,19 +46,16 @@ okular - pdf reader
 libreoffice
 
 
-
 ### Fonts ###
 ttf-fira-code - for alacritty
 awesom font
 emoji fonts ?
 
 
-
 ### Internet ###
 firefox/chromium
 thunderbird
 qbittorrent/transmission
-
 
 
 ### Command Line Tools ###
@@ -71,7 +65,6 @@ web browser
 RSS reader
 FZF/ranger
 vim/neovim
-
 
 
 ### Fun ###
