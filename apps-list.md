@@ -7,7 +7,7 @@
 * [Media](#Media)
 * [Fonts](#Fonts)
 * [Internet](#Internet)
-* command line tools
+* [command line tools](#Command_Tools)
 * [fun](#Fun)
 
 
@@ -59,7 +59,7 @@
 * qbittorrent/transmission
 
 
-### Command Line Tools ###
+### Command_Tools ###
 * buku - bookmarks
 * mail reader
 * web browser
