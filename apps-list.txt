@@ -1,6 +1,16 @@
-Fresh Install applications list
+## Fresh Install applications list ##
 
-# Basic
+### table of content: ###
+Basic
+System
+Media
+Fonts
+Internet
+command line tools
+fun
+
+
+#### Basic ####
 alacritty
 htop/bashtop
 ranger/thunar
@@ -8,7 +18,7 @@ neofetch
 
 
 
-# System
+#### System ####
 base-devel
 git
 yay/paru - AUR installer
@@ -21,7 +31,7 @@ timeshift/bacuka - backup tools
 
 
 
-# Media
+### Media ###
 leafpad/gedit
 nitrogen/pah - wallpaper tool
 gimp
@@ -39,21 +49,21 @@ libreoffice
 
 
 
-# Fonts
+### Fonts ###
 ttf-fira-code - for alacritty
 awesom font
 emoji fonts ?
 
 
 
-# Internet
+### Internet ###
 firefox/chromium
 thunderbird
 qbittorrent/transmission
 
 
 
-# Command Line Tools
+### Command Line Tools ###
 buku - bookmarks
 mail reader
 web browser
@@ -63,7 +73,7 @@ vim/neovim
 
 
 
-# Fun
+### Fun ###
 tty-clock
 cmatrix
 genact
