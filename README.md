@@ -15,6 +15,7 @@ dot files for the listed applications desktop environment and windows managers.
 * Picom
 * [Polybar](https://polybar.github.io/) (openweathermap key is in Dropbox)
 * [Vim](https://github.com/vim/vim)
+* [Neovim](https://github.com/neovim/neovim)
 * [Windows Terminal](https://github.com/Microsoft/Terminal)
 
 ## Linux
