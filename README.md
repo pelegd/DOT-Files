@@ -12,9 +12,9 @@ dot files for the listed applications desktop environment and windows managers.
 ## software
 * [alacritty terminal](https://github.com/alacritty/alacritty)
 * bashrc
-* Picom
-* dunst
-* ranger
+* [Picom](https://github.com/yshui/picom)
+* [dunst](https://dunst-project.org/)
+* [ranger](https://github.com/ranger/ranger)
 * [Polybar](https://polybar.github.io/) (openweathermap key is in Dropbox)
 * [Vim](https://github.com/vim/vim)
 * [Neovim](https://github.com/neovim/neovim)
