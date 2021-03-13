@@ -13,6 +13,8 @@ dot files for the listed applications desktop environment and windows managers.
 * [alacritty terminal](https://github.com/alacritty/alacritty)
 * bashrc
 * Picom
+* dunst
+* ranger
 * [Polybar](https://polybar.github.io/) (openweathermap key is in Dropbox)
 * [Vim](https://github.com/vim/vim)
 * [Neovim](https://github.com/neovim/neovim)
