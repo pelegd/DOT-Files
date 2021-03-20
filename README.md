@@ -31,3 +31,5 @@ dot files for the listed applications desktop environment and windows managers.
 * wallpapers - hd distro wallpapers
 * hebrew settings : cd /usr/share/X11/xkb/rules grep -ir hebrew *
 * Then : setxkbmap us,il -option grp:shifts_toggle
+* https://www.dropbox.com/sh/jf5kkwqwjw4xtpo/AABC7Lm3f7pz0gHB37UbqBQ0a?dl=0
+* ddd
