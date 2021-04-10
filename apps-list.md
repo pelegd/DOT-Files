@@ -76,7 +76,15 @@
 * glances - system monitoring
 
 ### Rust_apps_rewriten ###
-
+* bat (cat)
+* exa (ls)
+* fd (find)
+* procs (ps)
+* dust (du)
+* starship (prompt customization)
+* ripgrep (grep)
+* ytop (top)
+* ??? (ranger)
 
 ### Fun ###
 * tty-clock
