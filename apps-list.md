@@ -8,6 +8,7 @@
 * [Fonts](#Fonts)
 * [Internet](#Internet)
 * [command line tools](#Command_Tools)
+* [Rust rewriten apps](#Rust_apps_rewriten)
 * [fun](#Fun)
 
 
@@ -73,6 +74,8 @@
 * calcurse – free calendar and scheduling application
 * sfeed -RSS feed reader
 * glances - system monitoring
+
+### Rust_apps_rewriten ###
 
 
 ### Fun ###
