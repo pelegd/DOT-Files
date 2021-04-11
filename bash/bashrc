@@ -17,8 +17,19 @@ export ALTERNATE_EDITOR=""                # setting for emacsclient
 export EDITOR="emacsclient -t -a ''"      # $EDITOR use Emacs in terminal
 export VISUAL="emacsclient -c -a emacs"   # $VISUAL use Emacs in GUI mode
 
-# sets vim as manpager
-export MANPAGER="/bin/sh -c \"col -b | vim --not-a-term -c 'set ft=man ts=8 nomod nolist noma' -\""
+
+### SET MANPAGER
+### Uncomment only one of these!
+
+### "bat" as manpager
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+### "vim" as manpager
+# export MANPAGER='/bin/bash -c "vim -MRn -c \"set buftype=nofile showtabline=0 ft=man ts=8 nomod nolist norelativenumber nonu noma\" -c \"normal L\" -c \"nmap q :qa<CR>\"</dev/tty <(col -b)"'
+
+### "nvim" as manpager
+# export MANPAGER="nvim -c 'set ft=man' -"
+
 
 ### SET VI MODE IN BASH SHELL
 set -o vi
