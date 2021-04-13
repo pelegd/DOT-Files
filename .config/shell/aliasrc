@@ -125,3 +125,6 @@ alias tos="/home/dt/thinkorswim/thinkorswim"
 alias kak="/usr/bin/kak -c mysession"
 alias kaks="/usr/bin/kak -s mysession"
 alias kakd="/usr/bin/kak -d -s mysession &"
+
+# get the weather - also wttr.in
+alias weather='curl v2.wttr.in'
