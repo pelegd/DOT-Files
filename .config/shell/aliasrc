@@ -126,5 +126,7 @@ alias kak="/usr/bin/kak -c mysession"
 alias kaks="/usr/bin/kak -s mysession"
 alias kakd="/usr/bin/kak -d -s mysession &"
 
-# get the weather - also wttr.in
+# from the web
 alias weather='curl v2.wttr.in'
+alias netcheck="ping google.com"
+alias myip="curl https://ipinfo.io/ip"
