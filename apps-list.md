@@ -84,7 +84,7 @@
 * starship (prompt customization)
 * ripgrep (grep)
 * ytop (top)
-* ??? (ranger)
+* lf (ranger)
 
 ### Fun ###
 * tty-clock
