@@ -29,6 +29,7 @@
 * betterlockscreen - lock you screen
 * timeshift/bacuka - backup tools
 * xrandr/arandr - resolution settings for xorg
+* flameshot - screenshot
 
 
 ### Media ###
