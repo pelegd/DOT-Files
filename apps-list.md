@@ -25,7 +25,6 @@
 * yay/paru - AUR installer
 * openssh
 * ufw - Firewall
-* ripgrep - grep alternative
 * dunst - notification deamon
 * betterlockscreen - lock you screen
 * timeshift/bacuka - backup tools
@@ -47,6 +46,7 @@
 * VLC media player
 * okular - pdf reader
 * libreoffice
+* zathura - viwer
 
 
 ### Fonts ###
