@@ -53,7 +53,7 @@
 
 
 ### Fonts-Themes ###
-* lxappearance / qt5ct?
+* lxappearance / qt5ct
 * ttf-fira-code - for alacritty
 * ttf-font-awesome
 * emoji fonts ?
