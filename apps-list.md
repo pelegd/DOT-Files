@@ -52,9 +52,11 @@
 
 
 ### Fonts-Themes ###
+* lxappearance / qt5ct?
 * ttf-fira-code - for alacritty
-* awesom font
+* ttf-font-awesome
 * emoji fonts ?
+* 
 
 
 ### Internet ###
