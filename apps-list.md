@@ -18,6 +18,7 @@
 * ranger/thunar
 * neofetch
 * bash-comletion
+* man-db
 
 
 ### System ###
