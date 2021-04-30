@@ -5,7 +5,7 @@
 * [Basic](#Basic)
 * [System](#System)
 * [Media](#Media)
-* [Fonts-Themes](#Fonts)
+* [Fonts-Themes](#Fonts-Themes)
 * [Internet](#Internet)
 * [command line tools](#Command_Tools)
 * [Rust rewriten apps](#Rust_apps_rewriten)
