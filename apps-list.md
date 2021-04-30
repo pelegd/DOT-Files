@@ -5,7 +5,7 @@
 * [Basic](#Basic)
 * [System](#System)
 * [Media](#Media)
-* [Fonts](#Fonts)
+* [Fonts-Themes](#Fonts)
 * [Internet](#Internet)
 * [command line tools](#Command_Tools)
 * [Rust rewriten apps](#Rust_apps_rewriten)
@@ -17,6 +17,7 @@
 * htop/bashtop
 * ranger/thunar
 * neofetch
+* bash-comletion
 
 
 ### System ###
@@ -50,7 +51,7 @@
 * zathura - viwer
 
 
-### Fonts ###
+### Fonts-Themes ###
 * ttf-fira-code - for alacritty
 * awesom font
 * emoji fonts ?
