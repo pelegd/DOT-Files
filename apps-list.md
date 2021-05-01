@@ -57,7 +57,10 @@
 * ttf-fira-code - for alacritty
 * ttf-font-awesome
 * emoji fonts ?
+* maretia-gtk-theme
+* papirus-icon-theme
 * 
+* archlinux-wallpaper
 
 
 ### Internet ###
