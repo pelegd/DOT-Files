@@ -21,7 +21,7 @@
 * man-db
 * reflector -c israel -a 6 --sort rate --save /etc/pacman.d/mirrorlist
 * (sudo systemctl enable reflector.timer)
-* 
+* lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 * 
 * 
 
