@@ -19,6 +19,11 @@
 * neofetch
 * bash-comletion
 * man-db
+* reflector -c israel -a 6 --sort rate --save /etc/pacman.d/mirrorlist
+* (sudo systemctl enable reflector.timer)
+* 
+* 
+* 
 
 
 ### System ###
@@ -59,7 +64,7 @@
 * emoji fonts ?
 * maretia-gtk-theme
 * papirus-icon-theme
-* 
+* terminus-font
 * archlinux-wallpaper
 
 
