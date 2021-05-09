@@ -32,6 +32,7 @@
 * yay/paru - AUR installer
 * openssh
 * ufw - Firewall
+* fail2ban
 * dunst - notification deamon
 * betterlockscreen - lock you screen
 * timeshift/bacuka - backup tools
