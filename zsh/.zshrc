@@ -18,11 +18,11 @@ HISTFILE=~/.cache/zsh/history
 
 # PATH
 if [ -d "$HOME/.bin" ] ;
-  then PATH="$HOME/.bin:$PATH"
+  then PATH="$PATH:$HOME/.bin"
 fi
 
 if [ -d "$HOME/.local/bin" ] ;
-  then PATH="$HOME/.local/bin:$PATH"
+  then PATH="$PATH:$HOME/.local/bin"
 fi
 
 # Basic auto/tab complete:
