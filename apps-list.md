@@ -38,6 +38,7 @@
 * timeshift/bacuka - backup tools
 * xrandr/arandr - resolution settings for xorg
 * flameshot - screenshot
+* czkawka
 
 
 ### Media ###
