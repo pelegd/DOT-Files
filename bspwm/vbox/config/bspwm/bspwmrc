@@ -16,6 +16,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 $HOME/.screenlayout/display.sh
 $HOME/.config/polybar/launch.sh
 # setxkbmap us,il -option grp:shifts_toggle &
+xsetroot -cursor_name -left_ptr &
 killall "nitrogen"
 nitrogen --set-zoom-fill --restore &
 killall "picom"
