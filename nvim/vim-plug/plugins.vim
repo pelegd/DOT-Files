@@ -23,5 +23,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'gruvbox-community/gruvbox'
     Plug 'sainnhe/gruvbox-material'
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
         
 call plug#end()
