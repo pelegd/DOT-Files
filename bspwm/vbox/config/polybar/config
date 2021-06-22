@@ -60,7 +60,7 @@ font-5 = Font Awesome 5 Brands:pixelsize=12;2
 
 modules-left = bspwm xwindow
 modules-center = date
-modules-right = pacman-updates cpu memory xkeyboard pulseaudio eth powermenu
+modules-right = pacman-updates cpu memory filesystem xkeyboard pulseaudio eth powermenu
 
 separator = |
 tray-position = none
@@ -84,8 +84,8 @@ cursor-scroll = ns-resize
 [module/pacman-updates]
 type = custom/script
 # exec = checkupdates | wc -l
-exec = yay -Qu | wc -l
-interval = 1000
+exec = paru -Qu | wc -l
+interval = 300
 label = Updates: %output%
 # format.forground = ${colors.foreground}
 # format.background = ${colors.backgroun}
@@ -111,7 +111,7 @@ type = internal/xkeyboard
 blacklist-0 = num lock
 
 format-prefix = " "
-format-prefix-foreground = #cc241d
+format-prefix-foreground = #83a598
 # format-prefix-foreground = ${colors.foreground-alt}
 # format-prefix-underline = ${colors.secondary}
 
@@ -130,6 +130,7 @@ interval = 25
 mount-0 = /
 
 label-mounted =  %free%
+format-prefix-foreground = #8ec07c
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -242,7 +243,7 @@ card = intel_backlight
 type = internal/cpu
 interval = 2
 format-prefix = " "
-format-prefix-foreground = #98971a
+format-prefix-foreground = #fb4934
 # format-prefix-foreground = ${colors.foreground-alt}
 # format-underline = #f90000
 label = %percentage:2%%
@@ -251,7 +252,7 @@ label = %percentage:2%%
 type = internal/memory
 interval = 2
 format-prefix = " "
-format-prefix-foreground = #458588
+format-prefix-foreground = #b8bb26
 # format-prefix-foreground = ${colors.foreground-alt}
 # format-underline = #4bffdc
 label = %percentage_used%%
@@ -280,10 +281,10 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp1s0
+interface = enp0s3
 interval = 3.0
 
-format-connected-underline = #55aa55
+;format-connected-underline = #55aa55
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
@@ -305,7 +306,7 @@ time = %H:%M
 time-alt = %H:%M:%S
 
 format-prefix = 
-format-prefix-foreground = #d65d0e
+format-prefix-foreground = #d3869b
 # format-prefix-foreground = ${colors.foreground-alt}
 # format-underline = #0a6cf5
 
