@@ -4,7 +4,8 @@
 alias doas="doas --"
 
 # vim and emacs
-alias vim="nvim"
+alias v="vim"
+alias nv="nvim"
 # alias em="/usr/bin/emacs -nw"
 # alias emacs="emacsclient -c -a 'emacs'"
 # alias doomsync="~/.emacs.d/bin/doom sync"
@@ -13,7 +14,7 @@ alias vim="nvim"
 # alias doompurge="~/.emacs.d/bin/doom purge"
 
 # bat
-# alias cat='bat'
+alias cat='bat'
 
 # broot
 alias br='broot -dhp'
