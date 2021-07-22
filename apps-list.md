@@ -100,6 +100,8 @@
 * ripgrep (grep)
 * ytop (top)
 * lf (ranger)
+* sd (sed)
+* bandwhich (network information)
 
 ### Fun ###
 * tty-clock
