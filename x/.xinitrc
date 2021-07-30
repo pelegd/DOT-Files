@@ -48,4 +48,15 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-exec bspwm
+
+#### AutoStart ####
+$HOME/.screenlayout/display.sh
+setxkbmap us,il -option grp:shifts_toggle &
+xsetroot -cursor_name -left_ptr &
+killall "nitrogen"
+nitrogen --set-zoom-fill --restore &
+killall "picom"
+picom -f &
+
+# exec bspwm
+exec dwm
