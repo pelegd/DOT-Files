@@ -6,12 +6,6 @@ alias doas="doas --"
 # vim and emacs
 alias v="vim"
 alias nv="nvim"
-# alias em="/usr/bin/emacs -nw"
-# alias emacs="emacsclient -c -a 'emacs'"
-# alias doomsync="~/.emacs.d/bin/doom sync"
-# alias doomdoctor="~/.emacs.d/bin/doom doctor"
-# alias doomupgrade="~/.emacs.d/bin/doom upgrade"
-# alias doompurge="~/.emacs.d/bin/doom purge"
 
 # bat
 alias cat='bat'
@@ -55,10 +49,11 @@ alias rm='rm -i'
 # adding flags
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
-alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
-alias vifm='./.config/vifm/scripts/vifmrun'
-alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
-alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
+# alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
+# alias vifm='./.config/vifm/scripts/vifmrun'
+alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'  # mpd client
+alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'  # Music Player Daemon (MPD)
+
 ## get top process eating memory
 alias psmem='ps auxf | sort -nr -k 4'
 alias psmem10='ps auxf | sort -nr -k 4 | head -10'
@@ -93,39 +88,19 @@ alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 # receive the key of a developer
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
-# youtube-dl
-alias yta-aac="youtube-dl --extract-audio --audio-format aac "
-alias yta-best="youtube-dl --extract-audio --audio-format best "
-alias yta-flac="youtube-dl --extract-audio --audio-format flac "
-alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
-alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
-alias yta-opus="youtube-dl --extract-audio --audio-format opus "
-alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
-alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-alias ytv-best="youtube-dl -f bestvideo+bestaudio "
-
-# switch between shells
-# I do not recommend switching default SHELL from bash.
-alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
-alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
-alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
-
 # bare git repo alias for dotfiles
 alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 
 # termbin
 alias tb="nc termbin.com 9999"
 
-# Unlock LBRY tips
-alias tips='lbrynet txo spend --type=support --is_not_my_input --blocking'
-
 # Thinkorswim
-alias tos="/home/dt/thinkorswim/thinkorswim"
+# alias tos="/home/dt/thinkorswim/thinkorswim"
 
 # force all kakoune windows into one session
-alias kak="/usr/bin/kak -c mysession"
-alias kaks="/usr/bin/kak -s mysession"
-alias kakd="/usr/bin/kak -d -s mysession &"
+# alias kak="/usr/bin/kak -c mysession"
+# alias kaks="/usr/bin/kak -s mysession"
+# alias kakd="/usr/bin/kak -d -s mysession &"
 
 # from the web
 alias weather='curl v2.wttr.in'
