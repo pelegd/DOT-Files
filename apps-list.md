@@ -15,14 +15,13 @@
 ### Basic ###
 * alacritty
 * htop/bashtop
-* ranger/thunar
+* ranger/lf
 * neofetch
 * bash-comletion
 * man-db
 * reflector -c israel -a 6 --sort rate --save /etc/pacman.d/mirrorlist
 * (sudo systemctl enable reflector.timer)
 * lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
-* 
 * 
 
 
@@ -32,6 +31,7 @@
 * yay/paru - AUR installer
 * openssh
 * ufw - Firewall
+* picom
 * fail2ban
 * dunst - notification deamon
 * betterlockscreen - lock you screen
@@ -43,6 +43,8 @@
 
 ### Media ###
 * leafpad/gedit
+* thunar/nautilus nautilus-image-convertor
+* imagemagic
 * nitrogen/pah - wallpaper tool
 * gimp
 * inkscape - drawing tool
@@ -71,7 +73,7 @@
 
 
 ### Internet ###
-* firefox/chromium
+* firefox-beta-bin/chromium
 * qutebrowser
 * thunderbird
 * qbittorrent/transmission
@@ -103,7 +105,7 @@
 * sd (sed)
 * bandwhich (network information)
 
-### Fun ###
+### useless but fun to have ###
 * tty-clock
 * cmatrix
 * genact
