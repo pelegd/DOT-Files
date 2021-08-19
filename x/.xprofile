@@ -1,3 +1,8 @@
+# taken from
+# https://github.com/ChristianChiarulli/Machfiles
+# need to setup so it is independent of what WM is used
+#  
+
 # Status Bar
 dwmblocks &
 
