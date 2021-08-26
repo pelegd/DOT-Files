@@ -3,9 +3,6 @@
 # screen resolution setup
 $HOME/.screenlayout/display.sh
 
-setxkbmap us,il -option grp:alt_shift_toggle &
-xsetroot -cursor_name -left_ptr &
-
 # wallpaper setup
 killall "nitrogen"
 nitrogen --set-zoom-fill --restore &
@@ -18,6 +15,8 @@ picom -f &
 killall "dunst"
 dunst &
 
+# Screenshots
+flameshot &
 
 #### Window Manager Startup ####
 exec bspwm
