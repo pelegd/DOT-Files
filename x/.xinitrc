@@ -1,5 +1,8 @@
 #### AutoStart ####
 
+# env variable setup
+source ~/.xprofile
+
 # screen resolution setup
 $HOME/.screenlayout/display.sh
 
