@@ -9,7 +9,7 @@
 * [Internet](#Internet)
 * [command line tools](#Command_Tools)
 * [Rust rewriten apps](#Rust_apps_rewriten)
-* [fun](#Fun)
+* [fun](#useless but fun to have)
 
 
 ### Basic ###
@@ -110,3 +110,4 @@
 * cmatrix
 * genact
 * figlet
+* screenkey
