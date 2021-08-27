@@ -9,7 +9,7 @@
 * [Internet](#Internet)
 * [command line tools](#Command_Tools)
 * [Rust rewriten apps](#Rust_apps_rewriten)
-* [fun](#useless but fun to have)
+* [fun](#useless_but_fun_to_have)
 
 
 ### Basic ###
@@ -105,7 +105,7 @@
 * sd (sed)
 * bandwhich (network information)
 
-### useless but fun to have ###
+### useless_but_fun_to_have ###
 * tty-clock
 * cmatrix
 * genact
