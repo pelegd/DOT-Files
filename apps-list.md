@@ -28,7 +28,7 @@
 ### System ###
 * base-devel
 * git
-* yay/paru - AUR installer
+* yay/paru - AUR installer (color in pacman.conf)
 * openssh
 * ufw - Firewall
 * picom
