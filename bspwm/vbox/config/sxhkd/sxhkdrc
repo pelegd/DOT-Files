@@ -21,11 +21,11 @@ super + Return
 
 ## launch thunar
 super + shift + f
-	thunar
+	nautilus
 	
 ## launch firefox
 super + shift + w
-	firefox
+	firefox-beta
 	
 ## launch Text Editor
 super + shift + g
@@ -35,9 +35,13 @@ super + shift + g
 super + F1
 	alacritty
 super + F2
-	firefox
+	firefox-beta
 super + F3
 	dmenu_run
+super + F5
+	nautilus	
+super + F3
+	leafpad	
 
 ## volume control
 XF86Audio{RaiseVolume,LowerVolume,Mute}
