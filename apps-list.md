@@ -39,6 +39,8 @@
 * xrandr/arandr - resolution settings for xorg
 * flameshot - screenshot
 * czkawka
+* broot
+* xbanish - hide mouse when typing
 
 
 ### Media ###
