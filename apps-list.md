@@ -41,6 +41,7 @@
 * czkawka
 * broot
 * xbanish - hide mouse when typing
+* xsel - copy paste in nvim
 
 
 ### Media ###
