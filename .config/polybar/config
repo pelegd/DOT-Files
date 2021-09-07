@@ -54,8 +54,8 @@ padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = Droid Sans Mono:style=Regular:pixelsize=10;2
-font-1 = unifont:fontformat=truetype:size=14:antialias=false;2
+font-0 = Droid Sans Mono:style=Regular:pixelsize=9;2
+font-1 = unifont:fontformat=truetype:size=10:antialias=false;2
 font-2 = siji:style=Regular:pixelsize=24;2
 font-3 = Font Awesome 5 Free:pixelsize=12;2
 font-4 = Font Awesome 5 Free Solid:pixelsize=12;2
@@ -118,13 +118,6 @@ type = internal/xwindow
 label = %title:0:30:...%
 format = <label>
 
-[module/spotify]
-type = custom/script
-interval = 1
-format-prefix = " "
-format = <label>
-exec = python /home/ermanno/.config/scripts/spotify_status.py -f '{artist}: {song}'
-format-underline = #1db954
 
 
 [module/date]
@@ -144,12 +137,11 @@ label = %date% %time%
 [module/pacman-updates]
 type = custom/script
 exec = checkupdates | wc -l
-; exec = paru -Qu | wc -l
 interval = 300
-label = Updates: %output%
+label = %output%
 ; format.forground = ${colors.foreground}
 ; format.background = ${colors.backgroun}
-format-prefix = " "
+format-prefix = " UPDATES:"
 format-prefix-foreground = #ffbb00
 ; format-prefix-background = #ffbb00
 
@@ -157,7 +149,7 @@ format-prefix-foreground = #ffbb00
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
+format-prefix = " CPU:"
 format-prefix-foreground = #fb4934
 ; format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = #f90000
@@ -167,7 +159,7 @@ label = %percentage:2%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
+format-prefix = " MEM:"
 format-prefix-foreground = #b8bb26
 ; format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = #4bffdc
@@ -180,8 +172,9 @@ interval = 25
 
 mount-0 = /
 
-label-mounted =  %free%
-format-prefix-foreground = #8ec07c
+format-mounted-prefix = " Disk:"
+label-mounted = %free%
+format-mounted-prefix-foreground = #8ec07c
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -252,12 +245,20 @@ menu-0-1 = power off
 menu-0-1-exec = systemctl poweroff
 
 
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+exec = python /home/ermanno/.config/scripts/spotify_status.py -f '{artist}: {song}'
+format-underline = #1db954
+
+
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
-
 
 
 ; Only show workspaces on the same output as the bar
