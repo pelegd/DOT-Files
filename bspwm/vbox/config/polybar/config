@@ -14,13 +14,16 @@
 ;
 ;   The README contains a lot of information
 ;
+;   Date modifyed : 07/09/2021
+;   Notes : modules where orgenized, desktops set to 6
+;
 ;==========================================================
 
 [colors]
-# background = ${xrdb:color0:#222}
-# background = #331E1E1E
+; background = ${xrdb:color0:#222}
+; background = #331E1E1E
 background-alt = #bf1e1e1e
-# foreground = ${xrdb:color7:#222}
+; foreground = ${xrdb:color7:#222}
 foreground = #ffffff
 foreground-alt = #ffffff
 primary = #1b9fc6
@@ -45,7 +48,7 @@ line-color = #00564d
 border-size = 0
 border-color = #0D00564d
 
-padding-left = 0
+padding-left = 1
 padding-right = 1
 
 module-margin-left = 1
@@ -60,11 +63,11 @@ font-5 = Font Awesome 5 Brands:pixelsize=12;2
 
 modules-left = bspwm xwindow
 modules-center = date
-modules-right = pacman-updates cpu memory filesystem xkeyboard pulseaudio eth powermenu
+modules-right = pacman-updates cpu memory filesystem xkeyboard pulseaudio powermenu
 
 separator = |
 tray-position = none
-tray-padding = 2
+tray-padding = 1
 ;tray-background = #0063ff
 
 wm-restack = bspwm
@@ -81,17 +84,34 @@ wm-restack = bspwm
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-[module/pacman-updates]
-type = custom/script
-# exec = checkupdates | wc -l
-exec = paru -Qu | wc -l
-interval = 300
-label = Updates: %output%
-# format.forground = ${colors.foreground}
-# format.background = ${colors.backgroun}
-format-prefix = " "
-format-prefix-foreground = #ffbb00
-# format-prefix-background = #ffbb00
+
+;#############################################
+;############    Modules List    #############
+;#############################################
+
+
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = %index%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.primary}
+label-focused-padding = 1
+
+label-occupied = %index%
+label-occupied-padding = .5
+
+label-urgent = %index%!
+label-urgent-background = ${colors.alert}
+label-urgent-padding = .5
+
+label-empty = %index%
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = .5
+
+; Separator in between workspaces
+label-separator = |
+
 
 [module/xwindow]
 type = internal/xwindow
@@ -106,22 +126,53 @@ format = <label>
 exec = python /home/ermanno/.config/scripts/spotify_status.py -f '{artist}: {song}'
 format-underline = #1db954
 
-[module/xkeyboard]
-type = internal/xkeyboard
-blacklist-0 = num lock
 
-format-prefix = " "
-format-prefix-foreground = #83a598
-# format-prefix-foreground = ${colors.foreground-alt}
-# format-prefix-underline = ${colors.secondary}
+[module/date]
+type = internal/date
+interval = 1
+date =
+date-alt = " %Y-%m-%d"
+time = %H:%M
+time-alt = %H:%M:%S
+format-prefix = 
+format-prefix-foreground = #d3869b
+; format-prefix-foreground = ${colors.foreground-alt}
+; format-underline = #0a6cf5
+label = %date% %time%
 
-label-layout = %layout%
-# label-layout-underline = ${colors.secondary}
 
-label-indicator-padding = 2
-label-indicator-margin = 1
-label-indicator-background = ${colors.secondary}
-# label-indicator-underline = ${colors.secondary}
+[module/pacman-updates]
+type = custom/script
+exec = checkupdates | wc -l
+; exec = paru -Qu | wc -l
+interval = 300
+label = Updates: %output%
+; format.forground = ${colors.foreground}
+; format.background = ${colors.backgroun}
+format-prefix = " "
+format-prefix-foreground = #ffbb00
+; format-prefix-background = #ffbb00
+
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-prefix-foreground = #fb4934
+; format-prefix-foreground = ${colors.foreground-alt}
+; format-underline = #f90000
+label = %percentage:2%%
+
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = #b8bb26
+; format-prefix-foreground = ${colors.foreground-alt}
+; format-underline = #4bffdc
+label = %percentage_used%%
+
 
 [module/filesystem]
 type = internal/fs
@@ -134,27 +185,72 @@ format-prefix-foreground = #8ec07c
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
-[module/bspwm]
-type = internal/bspwm
 
-label-focused = %index%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
-label-focused-padding = 2
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
 
-label-occupied = %index%
-label-occupied-padding = 2
+format-prefix = " "
+format-prefix-foreground = #83a598
+; format-prefix-foreground = ${colors.foreground-alt}
+; format-prefix-underline = ${colors.secondary}
 
-label-urgent = %index%!
-label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+label-layout = %layout%
+; label-layout-underline = ${colors.secondary}
 
-label-empty = %index%
-label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 2
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+; label-indicator-underline = ${colors.secondary}
 
-; Separator in between workspaces
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = <label-volume> <bar-volume>
+label-volume =  %percentage%%
+label-volume-foreground = ${root.foreground}
+
+label-muted = ? muted
+label-muted-foreground = #666
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+
+label-open = 
+label-open-foreground = ${colors.secondary}
+label-close =  cancel
+label-close-foreground = ${colors.secondary}
 label-separator = |
+label-separator-foreground = ${colors.foreground-alt}
+
+menu-0-0 = reboot
+menu-0-0-exec = systemctl reboot
+menu-0-1 = power off
+menu-0-1-exec = systemctl poweroff
+
 
 [module/i3]
 type = internal/i3
@@ -170,9 +266,9 @@ wrapping-scroll = false
 ws-icon-0 = 1;
 ws-icon-1 = 2;
 ws-icon-2 = 3;
-# ws-icon-3 = 4;♝
-# ws-icon-4 = 5;♞
-# ws-icon-default = 
+ws-icon-3 = 4;♝
+ws-icon-4 = 5;♞
+ws-icon-default = 
 
 label-mode-padding = 2
 label-mode-foreground = #000
@@ -239,24 +335,6 @@ inherit = module/xbacklight
 type = internal/backlight
 card = intel_backlight
 
-[module/cpu]
-type = internal/cpu
-interval = 2
-format-prefix = " "
-format-prefix-foreground = #fb4934
-# format-prefix-foreground = ${colors.foreground-alt}
-# format-underline = #f90000
-label = %percentage:2%%
-
-[module/memory]
-type = internal/memory
-interval = 2
-format-prefix = " "
-format-prefix-foreground = #b8bb26
-# format-prefix-foreground = ${colors.foreground-alt}
-# format-underline = #4bffdc
-label = %percentage_used%%
-
 [module/wlan]
 type = internal/network
 interface = net1
@@ -294,50 +372,6 @@ format-disconnected =
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
-
-[module/date]
-type = internal/date
-interval = 1
-
-date =
-date-alt = " %Y-%m-%d"
-
-time = %H:%M
-time-alt = %H:%M:%S
-
-format-prefix = 
-format-prefix-foreground = #d3869b
-# format-prefix-foreground = ${colors.foreground-alt}
-# format-underline = #0a6cf5
-
-label = %date% %time%
-
-[module/pulseaudio]
-type = internal/pulseaudio
-
-format-volume = <label-volume> <bar-volume>
-label-volume =  %percentage%%
-label-volume-foreground = ${root.foreground}
-
-label-muted = ? muted
-label-muted-foreground = #666
-
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
-bar-volume-gradient = false
-bar-volume-indicator = |
-bar-volume-indicator-font = 2
-bar-volume-fill = ─
-bar-volume-fill-font = 2
-bar-volume-empty = ─
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/alsa]
 type = internal/alsa
@@ -418,25 +452,6 @@ ramp-0 = 
 ramp-1 = 
 ramp-2 = 
 ramp-foreground = ${colors.foreground-alt}
-
-[module/powermenu]
-type = custom/menu
-
-expand-right = true
-
-format-spacing = 1
-
-label-open = 
-label-open-foreground = ${colors.secondary}
-label-close =  cancel
-label-close-foreground = ${colors.secondary}
-label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
-
-menu-0-0 = reboot
-menu-0-0-exec = systemctl reboot
-menu-0-1 = power off
-menu-0-1-exec = systemctl poweroff
 
 
 [settings]
