@@ -191,6 +191,8 @@ format-prefix-foreground = #83a598
 label-layout = %layout%
 ; label-layout-underline = ${colors.secondary}
 
+label-indicator-on-capslock = CAPS
+
 label-indicator-padding = 2
 label-indicator-margin = 1
 label-indicator-background = ${colors.secondary}
