@@ -18,7 +18,7 @@ set encoding=utf8
 let g:airline_powerline_fonts = 1
 
 
-call plug#begin("~/.vim/plugged")
+call plug#begin("~/.config/nvim/plugged")
 Plug 'junegunn/fzf', {'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'pangloss/vim-javascript'
