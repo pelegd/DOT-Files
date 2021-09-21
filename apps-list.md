@@ -14,7 +14,7 @@
 
 ### Basic ###
 * alacritty
-* htop/bashtop
+* htop/btop++
 * ranger/lf
 * neofetch
 * bash-comletion
