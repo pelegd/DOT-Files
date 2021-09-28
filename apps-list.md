@@ -62,6 +62,7 @@
 * okular - pdf reader
 * libreoffice
 * zathura - viwer
+* zathura-pdf-mupdf - zathura plugin
 
 
 ### Fonts-Themes ###
