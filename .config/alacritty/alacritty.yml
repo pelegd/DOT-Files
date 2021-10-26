@@ -18,7 +18,7 @@ window:
 scrolling:
   history: 10000
   multiplier: 3
-background_opacity: .8
+background_opacity: 0.7
 window.dynamic_title: true
 
 # Font Customization
@@ -46,8 +46,9 @@ draw_bold_text_with_bright_colors: true
 
 live_config_reload: true
 
-# Color Settings (Gruvbox)
-colors:
+# Themes Section
+schemes:
+Gruvbox: &gruvbox
   primary:
     background: '#0f0f0f'
     foreground: '#ebdbb2'
@@ -72,10 +73,67 @@ colors:
     cyan:    '#8ec07c'
     white:   '#ebdbb2'
 
-  selection:
-    text: '0xffffff'
-    background: '0xdc3232'
-    white:   '0xffffff'
+Dracula: &dracula
+  primary:
+    background: '#282a36'
+    foreground: '#f8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#ff5555'
+    green:   '#50fa7b'
+    yellow:  '#f1fa8c'
+    blue:    '#caa9fa'
+    magenta: '#ff79c6'
+    cyan:    '#8be9fd'
+    white:   '#bfbfbf'
+
+  # Bright colors
+  bright:
+    black:   '#575b70'
+    red:     '#ff6e67'
+    green:   '#5af78e'
+    yellow:  '#f4f99d'
+    blue:    '#caa9fa'
+    magenta: '#ff92d0'
+    cyan:    '#9aedfe'
+    white:   '#e6e6e6'
+
+Nord: &nord
+  primary:
+     background: '#2E3440'
+     foreground: '#D8DEE9'
+
+   # Normal colors
+  normal:
+     black:   '#3B4252'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#88C0D0'
+     white:   '#E5E9F0'
+
+   # Bright colors
+  bright:
+     black:   '#4C566A'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#8FBCBB'
+     white:   '#ECEFF4'
+
+
+colors: *dracula
+
+#  selection:
+#    text: '0xffffff'
+#    background: '0xdc3232'
+#    white:   '0xffffff'
 cursor:
   style: Block
   unfocused_hollow: true
