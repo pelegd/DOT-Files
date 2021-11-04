@@ -67,7 +67,7 @@ modules-right = pacman-updates cpu memory filesystem xkeyboard pulseaudio powerm
 
 separator = |
 tray-position = none
-tray-padding = 1
+tray-padding = 2
 ;tray-background = #0063ff
 
 wm-restack = bspwm
