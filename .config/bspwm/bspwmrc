@@ -13,19 +13,12 @@ bspc rule -r "*"
 
 #### AutoStart ####
 pgrep -x sxhkd > /dev/null || sxhkd &
-$HOME/.screenlayout/display.sh
 $HOME/.config/polybar/launch.sh
-# setxkbmap us,il -option grp:shifts_toggle &
-xsetroot -cursor_name -left_ptr &
-killall "nitrogen"
-nitrogen --set-zoom-fill --restore &
-killall "picom"
-picom -f &
 
 
 
 #### Monitors ####
-bspc monitor -d 1 2 3 4 5 6 7 8 9
+bspc monitor -d 1 2 3 4 5 6
 # bspc monitor DisplayPort-1 -d 1 2 3 4 5 6 7 8 9
 # bspc monitor HDMI-A-0 -d 1 2 3 4 5 6 7 8 9
 # bspc monitor -d I II III IV V VI VII VIII IX X
@@ -78,7 +71,7 @@ xdo below -t $(xdo id -n root) $(xdo id -a polybar-main_Vrtual1)
 
 #### specific Rules ####
 bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a firefox desktop='^3'
+bspc rule -a firefox-beta-bin desktop='^3'
+bspc rule -a nautilus desktop='^4'
 bspc rule -a vlc state=floating
-bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
