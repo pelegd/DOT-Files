@@ -29,7 +29,7 @@ super + shift + w
 	
 ## launch Text Editor
 super + shift + g
-	leafpad
+	gedit
 
 # ALTERNATIVE APP KEYS (Super + function key)
 super + F1
@@ -39,9 +39,9 @@ super + F2
 super + F3
 	dmenu_run
 super + F5
-	nautilus	
-super + F3
-	leafpad	
+	nautilus
+super + F6
+	gedit
 
 ## volume control
 XF86Audio{RaiseVolume,LowerVolume,Mute}
