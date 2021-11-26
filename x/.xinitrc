@@ -12,7 +12,7 @@ nitrogen --set-zoom-fill --restore &
 
 # compositor
 killall "picom"
-picom -f &
+picom -f --config ~/.config/picom/picom.conf &
 
 # notification
 killall "dunst"
