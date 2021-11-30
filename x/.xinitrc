@@ -16,7 +16,7 @@ picom -f --config ~/.config/picom/picom.conf &
 
 # notification
 killall "dunst"
-dunst &
+dunst -conf ~/.config/dunst/dunstrc &
 
 # Screenshots
 flameshot &
