@@ -6,6 +6,11 @@
 # ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝      ╚═╝   
 #                                                                       
 #
+
+# Setting zsh as the default shell
+shell:
+    program: /bin/zsh
+
 # Window Customization
 window:
   dimensions:
