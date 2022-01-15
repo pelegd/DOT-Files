@@ -1,7 +1,16 @@
 ## WHat is Windows Terminal
 ### Windows Terminal is a modern terminal application for users of command-line tools and shells like Command Prompt, PowerShell, and Windows Subsystem for Linux (WSL). Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and the ability to create your own themes and customize text, colors, backgrounds, and shortcuts.
 
-### To Rdit configuration file - notepad $profile
+
+### Customization list:
+Install a Nerd Font
+Customize your PowerShell prompt with Oh My Posh
+Use Terminal-Icons to add missing folder or file icons
+
+
+### To Edit configuration file - notepad $profile
+
+
 
 ## Posh-git
 posh-git is a PowerShell module that integrates Git and PowerShell by providing Git status summary information that can be displayed in the PowerShell prompt.
