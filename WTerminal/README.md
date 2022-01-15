@@ -3,13 +3,12 @@
 
 
 ### Customization list:
-Install a Nerd Font
-Customize your PowerShell prompt with Oh My Posh
-Use Terminal-Icons to add missing folder or file icons
+### Install a Nerd Font
+### Customize your PowerShell prompt with Oh My Posh
+### Use Terminal-Icons to add missing folder or file icons
 
 
 ### To Edit configuration file - notepad $profile
-
 
 
 ## Posh-git
