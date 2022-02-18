@@ -1,7 +1,7 @@
 # Environment variables set everywhere
 export EDITOR="nvim"
 export TERMINAL="alacritty"
-export BROWSER="firefox-beta"
+export BROWSER="brave-beta"
 export READER="zathura"
 export VISUAL="nvim"
 # export VIDEO="mpv"
