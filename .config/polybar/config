@@ -72,9 +72,9 @@ modules-center = date
 modules-right = pacman-updates cpu memory filesystem xkeyboard pulseaudio powermenu
 
 separator = |
-tray-position = none
+tray-position = right
 tray-padding = 2
-;tray-background = #0063ff
+tray-background = #0063ff
 
 wm-restack = bspwm
 ;wm-restack = i3
