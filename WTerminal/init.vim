@@ -32,7 +32,6 @@ set splitright
 set splitbelow
 set noshowmode
 
-let NERDTreeShowHidden=1
 
 " Plugins
 call plug#begin("~//appdata/local/nvim/plugged")
