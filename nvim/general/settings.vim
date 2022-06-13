@@ -50,3 +50,6 @@ cmap w!! w !sudo tee %
 let g:rainbow#max_level = 16
 let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
 autocmd FileType * RainbowParentheses
+
+" NERDTree Hidden Files
+let NERDTreeShowHidden=1
