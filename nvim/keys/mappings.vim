@@ -42,3 +42,7 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
+" NERDTree
+nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <F4> :NERDTreeToggle<CR>
