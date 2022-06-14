@@ -38,6 +38,8 @@ call plug#begin("~//appdata/local/nvim/plugged")
       Plug 'jacoborus/tender.vim'
       Plug 'scrooloose/nerdtree'
       Plug 'ryanoasis/vim-devicons'
+      Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+      Plug 'Xuyuanp/nerdtree-git-plugin' 
       Plug 'junegunn/fzf', { 'dir': '~/appdata/local/nvim/plugged/fzf', 'do': './install --all' }
       Plug 'junegunn/fzf.vim'
       Plug 'itchyny/lightline.vim'
