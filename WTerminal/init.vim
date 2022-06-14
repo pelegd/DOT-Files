@@ -122,8 +122,16 @@ set background=dark
 colorscheme gruvbox
 " colorscheme tender
 
+" Lightline
+let g:lightline = {
+  \     'colorscheme': 'powerlineish',
+  \     'active': {
+  \         'left': [['mode', 'paste' ], ['readonly', 'filename', 'modified']],
+  \         'right': [['lineinfo'], ['percent'], ['fileformat', 'fileencoding']]
+  \     }
+  \ }
+
 " NERDTree settings
-" NERDTree
 let g:NERDTreeShowHidden = 1 
 let g:NERDTreeMinimalUI = 1 " hide helper
 let g:NERDTreeIgnore = ['^node_modules$'] " ignore node_modules to increase load speed 
