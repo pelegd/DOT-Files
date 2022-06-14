@@ -41,6 +41,7 @@ call plug#begin("~//appdata/local/nvim/plugged")
       Plug 'junegunn/fzf', { 'dir': '~/appdata/local/nvim/plugged/fzf', 'do': './install --all' }
       Plug 'junegunn/fzf.vim'
       Plug 'itchyny/lightline.vim'
+      Plug 'morhetz/gruvbox'
 call plug#end()"
 
 
@@ -112,7 +113,12 @@ nnoremap <Leader>O O<Esc>^Da
 
 " Themes
 syntax enable
-colorscheme tender
+if (has("termguicolors"))
+ set termguicolors
+endif
+set background=dark
+colorscheme gruvbox
+" colorscheme tender
 
 " NERDTree settings
 let g:NERDTreeShowHidden = 1
