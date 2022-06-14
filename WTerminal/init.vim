@@ -49,7 +49,7 @@ call plug#begin("~//appdata/local/nvim/plugged")
       Plug 'mbbill/undotree'
       Plug 'preservim/nerdcommenter'
       Plug 'ap/vim-css-color'
-      Plug tpope/vim-fugitive'
+      Plug 'tpope/vim-fugitive'
       Plug 'tpope/vim-surround'
 call plug#end()"
 
