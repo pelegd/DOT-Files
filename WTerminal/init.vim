@@ -31,6 +31,8 @@ set backupdir=~/.cache/vim  " Directory to store backup files.
 set splitright
 set splitbelow
 set noshowmode
+set undodir=~/appdata/local/nvim/undodir " set undotree file directory
+set undofile " set undotree to save to file
 
 
 " Plugins
@@ -44,6 +46,7 @@ call plug#begin("~//appdata/local/nvim/plugged")
       Plug 'junegunn/fzf.vim'
       Plug 'itchyny/lightline.vim'
       Plug 'morhetz/gruvbox'
+      Plug 'mbbill/undotree'
 call plug#end()"
 
 
