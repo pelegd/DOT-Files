@@ -1,10 +1,11 @@
-## WHat is Windows Terminal
+## What is Windows Terminal
 ### Windows Terminal is a modern terminal application for users of command-line tools and shells like Command Prompt, PowerShell, and Windows Subsystem for Linux (WSL). Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and the ability to create your own themes and customize text, colors, backgrounds, and shortcuts.
 
 
 ### Customization list:
 ### Install a Nerd Font
-### Customize your PowerShell prompt with Oh My Posh
+### Install starship
+### (stoped using it)Customize your PowerShell prompt with Oh My Posh
 ### Use Terminal-Icons to add missing folder or file icons
 
 
