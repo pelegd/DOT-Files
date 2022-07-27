@@ -9,7 +9,7 @@
 winget install --id Starship.Starship
 ```
 
-#### (stopped using it)Customize your PowerShell prompt with Oh My Posh
+#### (stopped using it)Customize your PowerShell prompt with [Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 ```
 Install-Module oh-my-posh -Scope CurrentUser
 
