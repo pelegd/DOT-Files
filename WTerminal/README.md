@@ -9,7 +9,7 @@
 #### Use Terminal-Icons to add missing folder or file icons
 
 
-### To Edit configuration file - notepad $profile
+### To Edit configuration file - notepad $PROFILE
 
 
 ## Posh-git
