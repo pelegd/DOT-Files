@@ -9,8 +9,8 @@
 #### Use [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) to add missing folder or file icons
 
 
-### Configure profile file
-####notepad $PROFILE####
+### Configuration are in PROFILE file
+#### to accesss it run - nvim or notepad or code $PROFILE ####
 
 ## Posh-git
 posh-git is a PowerShell module that integrates Git and PowerShell by providing Git status summary information that can be displayed in the PowerShell prompt.
