@@ -3,7 +3,7 @@
 
 
 ## Customization list:
-#### Install a Nerd Font
+#### Install a [Nerd Font](https://www.nerdfonts.com/)
 #### Install starship
 #### (stoped using it)Customize your PowerShell prompt with Oh My Posh
 #### Use Terminal-Icons to add missing folder or file icons
