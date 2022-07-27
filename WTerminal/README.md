@@ -4,13 +4,13 @@
 
 ## Customization list:
 #### Install a [Nerd Font](https://www.nerdfonts.com/)
-#### Install starship
+#### Install [starship](https://starship.rs/)
 #### (stoped using it)Customize your PowerShell prompt with Oh My Posh
-#### Use Terminal-Icons to add missing folder or file icons
+#### Use [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) to add missing folder or file icons
 
 
-### To Edit configuration file - notepad $PROFILE
-
+### Configure profile file
+####notepad $PROFILE####
 
 ## Posh-git
 posh-git is a PowerShell module that integrates Git and PowerShell by providing Git status summary information that can be displayed in the PowerShell prompt.
