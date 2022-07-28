@@ -28,7 +28,7 @@ disabled = true  # disable in powershell
 show_always = false
 
 [directory]
-truncation_length = 3
+truncation_length = 1
 truncation_symbol = "…/"
 home_symbol = " ~"
 read_only_style = "197"
