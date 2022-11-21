@@ -23,7 +23,7 @@
 * (sudo systemctl enable reflector.timer)
 * lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 * networkmanager network-manager=applet
-* 
+* tldr
 
 
 ### System ###
