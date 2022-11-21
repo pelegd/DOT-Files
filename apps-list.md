@@ -98,7 +98,7 @@
 * sfeed -RSS feed reader
 * glances - system monitoring
 
-### Rust apps rewriten ###
+### apps rewriten with RUST ###
 * bat (cat)
 * exa (ls)
 * fd (find)
