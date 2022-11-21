@@ -85,7 +85,7 @@
 * qbittorrent/transmission
 
 
-### Command_Tools ###
+### Command Tools ###
 * buku - bookmarks
 * mutt/neomutt - mail client
 * web browser
