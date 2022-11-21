@@ -98,7 +98,7 @@
 * sfeed -RSS feed reader
 * glances - system monitoring
 
-### Rust_apps_rewriten ###
+### Rust apps rewriten ###
 * bat (cat)
 * exa (ls)
 * fd (find)
@@ -111,7 +111,7 @@
 * sd (sed)
 * bandwhich (network information)
 
-### useless_but_fun_to_have ###
+### useless but fun to have ###
 * tty-clock
 * cmatrix
 * genact
