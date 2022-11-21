@@ -7,7 +7,7 @@
 * [Media](#Media)
 * [Fonts-Themes](#Fonts-Themes)
 * [Internet](#Internet)
-* [command line tools](#Command Tools)
+* [command line tools](#Command_Tools)
 * [Rust rewriten apps](#Rust_apps_rewriten)
 * [fun](#useless_but_fun_to_have)
 
@@ -85,7 +85,7 @@
 * qbittorrent/transmission
 
 
-### Command Tools ###
+### Command_Tools ###
 * buku - bookmarks
 * mutt/neomutt - mail client
 * web browser
@@ -98,7 +98,7 @@
 * sfeed -RSS feed reader
 * glances - system monitoring
 
-### apps rewriten with RUST ###
+### Rust_apps_rewriten ###
 * bat (cat)
 * exa (ls)
 * fd (find)
@@ -111,7 +111,7 @@
 * sd (sed)
 * bandwhich (network information)
 
-### useless but fun to have ###
+### useless_but_fun_to_have ###
 * tty-clock
 * cmatrix
 * genact
