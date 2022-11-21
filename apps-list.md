@@ -7,7 +7,7 @@
 * [Media](#Media)
 * [Fonts-Themes](#Fonts-Themes)
 * [Internet](#Internet)
-* [command line tools](#Command_Tools)
+* [command line tools](#Command Tools)
 * [Rust rewriten apps](#Rust_apps_rewriten)
 * [fun](#useless_but_fun_to_have)
 
