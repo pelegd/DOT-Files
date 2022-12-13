@@ -11,137 +11,57 @@
 shell:
     program: /bin/zsh
 
-# Window Customization
+import:
+  - ~/.config/alacritty/font.yml
+  - ~/.config/alacritty/color.yml
+
+env:
+  TERM: xterm-256color
+
 window:
-  dimensions:
-    columns: 140
-    lines: 38
-  padding:
-    x: 5
-    y: 5
   decorations: none
+  dimentions:
+    columns: 0
+    lines: 0
+
+  position:
+    x: 0
+    y: 0
+
+  padding:
+    x: 6
+    y: 6
+
+  opacity: 0.7
+
+  title: Alacritty
+
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+
 scrolling:
-  history: 10000
-  multiplier: 3
-window.opacity: 0.7
-window.dynamic_title: true
+  history: 5000
 
-# Font Customization
-font:
-  normal:
-    family: FiraCode Nerd Font
-    style: Regular
-  bold:
-    family: FiraCode Nerd Font
-    style: Bold
-  italic:
-    family: FiraCode Nerd Font
-    style: Italic
-  size: 11
-  offset:
-    x: 0
-    y: 0
-  glyph_offset:
-    x: 0
-    y: 0
-  AppleFontSmoothing: false
-  debug:
-    persistent_logging: false
-draw_bold_text_with_bright_colors: true
-
-live_config_reload: true
-
-# Themes Section
-schemes:
-Gruvbox: &gruvbox
-  primary:
-    background: '#0f0f0f'
-    foreground: '#ebdbb2'
-
-  normal:
-    black:   '#282828'
-    red:     '#cc241d'
-    green:   '#98971a'
-    yellow:  '#d79921'
-    blue:    '#458588'
-    magenta: '#b16286'
-    cyan:    '#689d6a'
-    white:   '#a89984'
-
-  bright:
-    black:   '#928374'
-    red:     '#fb4934'
-    green:   '#b8bb26'
-    yellow:  '#fabd2f'
-    blue:    '#83a598'
-    magenta: '#d3869b'
-    cyan:    '#8ec07c'
-    white:   '#ebdbb2'
-
-Dracula: &dracula
-  primary:
-    background: '#282a36'
-    foreground: '#f8f8f2'
-
-  # Normal colors
-  normal:
-    black:   '#000000'
-    red:     '#ff5555'
-    green:   '#50fa7b'
-    yellow:  '#f1fa8c'
-    blue:    '#caa9fa'
-    magenta: '#ff79c6'
-    cyan:    '#8be9fd'
-    white:   '#bfbfbf'
-
-  # Bright colors
-  bright:
-    black:   '#575b70'
-    red:     '#ff6e67'
-    green:   '#5af78e'
-    yellow:  '#f4f99d'
-    blue:    '#caa9fa'
-    magenta: '#ff92d0'
-    cyan:    '#9aedfe'
-    white:   '#e6e6e6'
-
-Nord: &nord
-  primary:
-     background: '#2E3440'
-     foreground: '#D8DEE9'
-
-   # Normal colors
-  normal:
-     black:   '#3B4252'
-     red:     '#BF616A'
-     green:   '#A3BE8C'
-     yellow:  '#EBCB8B'
-     blue:    '#81A1C1'
-     magenta: '#B48EAD'
-     cyan:    '#88C0D0'
-     white:   '#E5E9F0'
-
-   # Bright colors
-  bright:
-     black:   '#4C566A'
-     red:     '#BF616A'
-     green:   '#A3BE8C'
-     yellow:  '#EBCB8B'
-     blue:    '#81A1C1'
-     magenta: '#B48EAD'
-     cyan:    '#8FBCBB'
-     white:   '#ECEFF4'
-
-
-colors: *dracula
-
-#  selection:
-#    text: '0xffffff'
-#    background: '0xdc3232'
-#    white:   '0xffffff'
 cursor:
-  style: Block
-  unfocused_hollow: true
+  style: 
+    shape: Underline
+    blinking: On
 
 key_bindings:
-  - { key: N, mods: Control, action: SpawnNewInstance }
+    # (Windows, Linux, and BSD only)
+  - { key: V,        mods: Control|Shift, action: Paste            }
+  - { key: C,        mods: Control|Shift, action: Copy             }
+  - { key: Insert,   mods: Shift,         action: PasteSelection   }
+  - { key: Key0,     mods: Control,       action: ResetFontSize    }
+  - { key: Equals,   mods: Control,       action: IncreaseFontSize }
+  - { key: Minus,    mods: Control,       action: DecreaseFontSize }
+
+  - { key: L,         mods: Control, action: ClearLogNotice                   }
+  - { key: L,         mods: Control, chars: "\x0c"                            }
+  - { key: PageUp,    mods: Shift,   action: ScrollPageUp,   mode: ~Alt       }
+  - { key: PageDown,  mods: Shift,   action: ScrollPageDown, mode: ~Alt       }
+  - { key: Home,      mods: Shift,   action: ScrollToTop,    mode: ~Alt       }
+  - { key: End,       mods: Shift,   action: ScrollToBottom, mode: ~Alt       }
+
