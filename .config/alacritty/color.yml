@@ -1,10 +1,92 @@
-# Oxide colors
-colors:
-    primary:
-      background: '#000000'
-      foreground: '#eeeeee'
+# Themes Section
+schemes:
+Gruvbox: &gruvbox
+  primary:
+    background: '#0f0f0f'
+    foreground: '#ebdbb2'
 
-    normal:
+  normal:
+    black:   '#282828'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
+
+  bright:
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#ebdbb2'
+
+Dracula: &dracula
+  primary:
+    background: '#282a36'
+    foreground: '#f8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#ff5555'
+    green:   '#50fa7b'
+    yellow:  '#f1fa8c'
+    blue:    '#caa9fa'
+    magenta: '#ff79c6'
+    cyan:    '#8be9fd'
+    white:   '#bfbfbf'
+
+  # Bright colors
+  bright:
+    black:   '#575b70'
+    red:     '#ff6e67'
+    green:   '#5af78e'
+    yellow:  '#f4f99d'
+    blue:    '#caa9fa'
+    magenta: '#ff92d0'
+    cyan:    '#9aedfe'
+    white:   '#e6e6e6'
+
+Nord: &nord
+  primary:
+     background: '#2E3440'
+     foreground: '#D8DEE9'
+
+   # Normal colors
+  normal:
+     black:   '#3B4252'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#88C0D0'
+     white:   '#E5E9F0'
+
+   # Bright colors
+  bright:
+     black:   '#4C566A'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#8FBCBB'
+     white:   '#ECEFF4'
+
+
+# Oxide colors
+Oxide: &oxide
+  primary:
+    background: '#000000'
+    foreground: '#eeeeee'
+
+  normal:
       black:   "#1b1d1e"
       red:     "#d84949"
       green:   "#5f875f"
@@ -15,7 +97,7 @@ colors:
       white:   '#c5c5be'
 
 
-    bright:
+  bright:
       black:   '#505354'
       red:     '#d84949'
       green:   '#5f875f'
@@ -24,3 +106,6 @@ colors:
       magenta: '#9a999d'
       cyan:    '#008080'
       white:   '#dadad5'
+
+
+colors: *oxide
