@@ -7,6 +7,17 @@
 # ██████╔╝███████║██║     ╚███╔███╔╝██║ ╚═╝ ██║██║  ██║╚██████╗
 # ╚═════╝ ╚══════╝╚═╝      ╚══╝╚══╝ ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
 
+# Kill existing processes
+pkill sxhkd
+pkill polybar
+pkill picom
+pkill dunst
+pkill nitrogen
+pkill flameshot
+pkill nm-applet
+#pkill redshift
+#pkill xfce4-clipman
+
 # Kill all running rules
 bspc rule -r "*"
 
@@ -14,8 +25,11 @@ bspc rule -r "*"
 #### AutoStart ####
 pgrep -x sxhkd > /dev/null || sxhkd &
 $HOME/.config/polybar/launch.sh
-
-
+picom -f --config ~/.config/picom/picom.conf &
+dunst -conf ~/.config/dunst/dunstrc &
+nitrogen --set-zoom-fill --restore &
+flameshot &
+nm-applet --indicator &
 
 #### Monitors ####
 bspc monitor -d 1 2 3 4 5 6
