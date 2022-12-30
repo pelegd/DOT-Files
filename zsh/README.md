@@ -38,8 +38,7 @@ Features include:[[14]](https://www.wikiwand.com/en/Z_shell#citenote14)
 -   Named directories. This allows the user to set up shortcuts such as `~mydir`, which then behave the way `~` and `~user` do.
 
 ## Plugins Used
-````markup
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null	source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/nul
-source /usr/share/zsh/plugins/zsh-z/zsh-z.plugin.zsh 2>/dev/null
-zstyle ':completion:*' menu select
-````markup
+  source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+  source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/nul
+  source /usr/share/zsh/plugins/zsh-z/zsh-z.plugin.zsh 2>/dev/null
+  zstyle ':completion:*' menu select
