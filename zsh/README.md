@@ -39,6 +39,7 @@ Features include:[[14]](https://www.wikiwand.com/en/Z_shell#citenote14)
 
 ## Plugins Used
 place these lines in the end of .zshrc
+[zsh-z can be found here](https://github.com/agkozak/zsh-z)
 
     source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
     source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/nul
