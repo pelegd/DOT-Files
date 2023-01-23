@@ -109,6 +109,7 @@
 * ytop (top)
 * lf (ranger)
 * sd (sed)
+* rip (rm)
 * bandwhich (network information)
 
 ### useless_but_fun_to_have ###
