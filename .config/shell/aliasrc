@@ -30,6 +30,20 @@ alias parsyu='paru -Syu --noconfirm'             # update standard pkgs and AUR 
 alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'  # remove orphaned packages
 
+# Void Linux
+alias xu='sudo xbps-install xbps && sudo xbps-install -Suv'
+alias xin='sudo xbps-install'
+alias xr='sudo xbps-remove -Rcon'
+alias xl='xbps-query -l'
+alias xf='xl | grep'
+alias xs='xbps-query -Rs'
+alias xd='xbps-query -x'
+alias clrk='sudo vkpurge rm all && sudo rm -rf /var/cache/xbps/*'
+alias halt='sudo halt'
+alias poweroff='sudo poweroff'
+alias reboot='sudo reboot'
+alias shutdown='sudo shutdown'
+
 # For when keys break
 alias archlinx-fix-keys="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys"
 
