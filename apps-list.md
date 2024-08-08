@@ -13,10 +13,10 @@
 
 
 ### Basic ###
-* alacritty
+* alacritty/kitty
 * htop/btop++
-* ranger/lf
-* neofetch
+* ranger/lf/yazi
+* neofetch/fastfetch
 * bash-comletion
 * man-db
 * reflector -c israel -a 6 --sort rate --save /etc/pacman.d/mirrorlist
