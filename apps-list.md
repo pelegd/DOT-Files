@@ -14,7 +14,7 @@
 
 ### Basic ###
 * alacritty/kitty
-* htop/btop++
+* htop/btop
 * ranger/lf/yazi
 * neofetch/fastfetch
 * bash-comletion
@@ -29,7 +29,7 @@
 ### System ###
 * base-devel
 * git
-* yay/paru - AUR installer (color in pacman.conf)
+* yay/paru - Arch linux AUR installer
 * openssh
 * ufw - Firewall
 * picom
